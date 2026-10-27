@@ -1,0 +1,494 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum UserRole {
+  OWNER
+  STAFF
+}
+
+enum UserStatus {
+  ACTIVE
+  INACTIVE
+}
+
+enum MotelStatus {
+  ACTIVE
+  INACTIVE
+}
+
+enum RoomStatus {
+  VACANT
+  RESERVED
+  OCCUPIED
+  MAINTENANCE
+}
+
+enum TenantStatus {
+  ACTIVE
+  INACTIVE
+  BLACKLISTED
+}
+
+enum ContractStatus {
+  DRAFT
+  ACTIVE
+  ENDED
+  CANCELLED
+}
+
+enum InvoiceStatus {
+  DRAFT
+  ISSUED
+  PARTIALLY_PAID
+  PAID
+  OVERDUE
+}
+
+enum PaymentMethod {
+  CASH
+  BANK_TRANSFER
+  OTHER
+}
+
+enum InvoiceItemType {
+  ROOM_RENT
+  ELECTRICITY
+  WATER
+  SERVICE_FEE
+  SURCHARGE
+  DISCOUNT
+  OTHER
+}
+
+enum FeedbackStatus {
+  NEW
+  IN_PROGRESS
+  RESOLVED
+  CLOSED
+}
+
+enum VehicleType {
+  MOTORCYCLE
+  CAR
+  BICYCLE
+  ELECTRIC_BIKE
+  OTHER
+}
+
+enum VehicleStatus {
+  ACTIVE
+  INACTIVE
+}
+
+enum FeedbackCategory {
+  MAINTENANCE
+  NOISE
+  UTILITIES
+  SECURITY
+  CLEANLINESS
+  OTHER
+}
+
+enum ExpenseCategory {
+  MAINTENANCE
+  UTILITIES
+  SUPPLIES
+  CLEANING
+  SECURITY
+  OTHER
+}
+
+enum ExpenseStatus {
+  PENDING
+  APPROVED
+  PAID
+  CANCELLED
+}
+
+enum FeedbackPriority {
+  LOW
+  MEDIUM
+  HIGH
+  URGENT
+}
+
+enum PaymentCycle {
+  MONTHLY
+  QUARTERLY
+  YEARLY
+}
+
+model User {
+  id           String     @id @default(cuid())
+  email        String     @unique
+  passwordHash String     @map("password_hash")
+  fullName     String     @map("full_name")
+  phoneNumber  String?    @map("phone_number")
+  role         UserRole
+  status       UserStatus @default(ACTIVE)
+
+  motels              Motel[]
+  createdContracts    Contract[]     @relation("ContractCreatedBy")
+  updatedContracts    Contract[]     @relation("ContractUpdatedBy")
+  createdReadings     MeterReading[] @relation("MeterReadingCreatedBy")
+  updatedReadings     MeterReading[] @relation("MeterReadingUpdatedBy")
+  createdInvoices     Invoice[]      @relation("InvoiceCreatedBy")
+  updatedInvoices     Invoice[]      @relation("InvoiceUpdatedBy")
+  recordedPayments    Payment[]      @relation("PaymentRecordedBy")
+  createdFeedbacks    Feedback[]     @relation("FeedbackCreatedBy")
+  assignedFeedbacks   Feedback[]     @relation("FeedbackAssignedTo")
+
+  createdAt    DateTime   @default(now()) @map("created_at")
+  updatedAt    DateTime   @updatedAt @map("updated_at")
+
+  @@map("users")
+}
+
+model Motel {
+  id                      String      @id @default(cuid())
+  name                    String
+  address                 String
+  description             String?
+  defaultElectricityPrice Decimal     @db.Decimal(12, 2) @map("default_electricity_price")
+  defaultWaterPrice       Decimal     @db.Decimal(12, 2) @map("default_water_price")
+  defaultServiceFee       Decimal     @db.Decimal(12, 2) @default(0) @map("default_service_fee")
+  paymentDueDay           Int?        @map("payment_due_day")
+  images                  String[]    @default([])
+  status                  MotelStatus @default(ACTIVE)
+  autoInvoice             Boolean     @default(false) @map("auto_invoice")
+
+  ownerId                 String      @map("owner_id")
+  owner                   User        @relation(fields: [ownerId], references: [id])
+
+  rooms                   Room[]
+  contracts               Contract[]
+  meterReadings           MeterReading[]
+  invoices                Invoice[]
+  feedbacks               Feedback[]
+  expenses                Expense[]
+  vehicles                Vehicle[]
+
+  createdAt               DateTime    @default(now()) @map("created_at")
+  updatedAt               DateTime    @updatedAt @map("updated_at")
+
+  @@map("motels")
+}
+
+model Room {
+  id               String      @id @default(cuid())
+  motelId          String      @map("motel_id")
+  roomCode         String      @map("room_code")
+  roomName         String?     @map("room_name")
+  floor            Int?
+  area             Decimal?    @db.Decimal(10, 2)
+  baseRentPrice    Decimal     @db.Decimal(12, 2) @map("base_rent_price")
+  depositSuggested Decimal?    @db.Decimal(12, 2) @map("deposit_suggested")
+  maxOccupants     Int?        @map("max_occupants")
+  status           RoomStatus  @default(VACANT)
+  description      String?
+
+  motel            Motel       @relation(fields: [motelId], references: [id])
+  contracts        Contract[]
+  meterReadings    MeterReading[]
+  invoices         Invoice[]
+  feedbacks        Feedback[]
+
+  createdAt        DateTime    @default(now()) @map("created_at")
+  updatedAt        DateTime    @updatedAt @map("updated_at")
+
+  @@unique([motelId, roomCode])
+  @@map("rooms")
+}
+
+model Tenant {
+  id               String       @id @default(cuid())
+  fullName         String       @map("full_name")
+  phoneNumber      String       @map("phone_number")
+  email            String?
+  citizenId        String?      @unique @map("citizen_id")
+  dateOfBirth      DateTime?    @map("date_of_birth")
+  gender           String?
+  permanentAddress String?      @map("permanent_address")
+  vehicleNumber    String?      @map("vehicle_number")
+  note             String?
+  status           TenantStatus @default(ACTIVE)
+
+  representativeContracts Contract[]       @relation("RepresentativeTenant")
+  contractTenants         ContractTenant[]
+  invoices                Invoice[]        @relation("InvoiceRepresentativeTenant")
+  feedbacks               Feedback[]
+  vehicles                Vehicle[]
+
+  createdAt        DateTime     @default(now()) @map("created_at")
+  updatedAt        DateTime     @updatedAt @map("updated_at")
+
+  @@map("tenants")
+}
+
+model Vehicle {
+  id           String        @id @default(cuid())
+  tenantId     String        @map("tenant_id")
+  motelId      String?       @map("motel_id")
+  licensePlate String        @map("license_plate")
+  vehicleType  VehicleType   @map("vehicle_type")
+  brand        String?
+  color        String?
+  monthlyFee   Decimal?      @db.Decimal(12, 2) @map("monthly_fee")
+  description  String?
+  images       String[]      @default([])
+  status       VehicleStatus @default(ACTIVE)
+
+  tenant       Tenant        @relation(fields: [tenantId], references: [id])
+  motel        Motel?        @relation(fields: [motelId], references: [id])
+
+  createdAt    DateTime      @default(now()) @map("created_at")
+  updatedAt    DateTime      @updatedAt @map("updated_at")
+
+  @@unique([tenantId, licensePlate])
+  @@map("vehicles")
+}
+
+model Contract {
+  id                     String         @id @default(cuid())
+  contractCode           String         @unique @map("contract_code")
+  motelId                String         @map("motel_id")
+  roomId                 String         @map("room_id")
+  representativeTenantId String         @map("representative_tenant_id")
+
+  startDate              DateTime       @map("start_date")
+  endDate                DateTime?      @map("end_date")
+  signedDate             DateTime?      @map("signed_date")
+
+  rentAmount             Decimal        @db.Decimal(12, 2) @map("rent_amount")
+  depositAmount          Decimal        @db.Decimal(12, 2) @default(0) @map("deposit_amount")
+  serviceFee             Decimal        @db.Decimal(12, 2) @default(0) @map("service_fee")
+  occupantCount          Int            @default(1) @map("occupant_count")
+
+  paymentDay             Int?           @map("payment_day")
+  paymentCycle           PaymentCycle   @default(MONTHLY) @map("payment_cycle")
+
+  status                 ContractStatus @default(DRAFT)
+  note                   String?
+
+  createdById            String         @map("created_by")
+  updatedById            String?        @map("updated_by")
+
+  motel                  Motel          @relation(fields: [motelId], references: [id])
+  room                   Room           @relation(fields: [roomId], references: [id])
+  representativeTenant   Tenant         @relation("RepresentativeTenant", fields: [representativeTenantId], references: [id])
+
+  createdBy              User           @relation("ContractCreatedBy", fields: [createdById], references: [id])
+  updatedBy              User?          @relation("ContractUpdatedBy", fields: [updatedById], references: [id])
+
+  contractTenants        ContractTenant[]
+  meterReadings          MeterReading[]
+  invoices               Invoice[]
+
+  createdAt              DateTime       @default(now()) @map("created_at")
+  updatedAt              DateTime       @updatedAt @map("updated_at")
+
+  @@index([roomId, status])
+  @@map("contracts")
+}
+
+model ContractTenant {
+  id               String    @id @default(cuid())
+  contractId       String    @map("contract_id")
+  tenantId         String    @map("tenant_id")
+  isRepresentative Boolean   @default(false) @map("is_representative")
+  joinedAt         DateTime? @map("joined_at")
+  leftAt           DateTime? @map("left_at")
+  createdAt        DateTime  @default(now()) @map("created_at")
+
+  contract         Contract  @relation(fields: [contractId], references: [id])
+  tenant           Tenant    @relation(fields: [tenantId], references: [id])
+
+  @@unique([contractId, tenantId])
+  @@map("contract_tenants")
+}
+
+model MeterReading {
+  id                   String    @id @default(cuid())
+  motelId              String    @map("motel_id")
+  roomId               String    @map("room_id")
+  contractId           String?   @map("contract_id")
+
+  readingMonth         Int       @map("reading_month")
+  readingYear          Int       @map("reading_year")
+
+  electricityPrevious  Decimal   @db.Decimal(12, 2) @default(0) @map("electricity_previous")
+  electricityCurrent   Decimal   @db.Decimal(12, 2) @default(0) @map("electricity_current")
+  electricityUsage     Decimal   @db.Decimal(12, 2) @default(0) @map("electricity_usage")
+  electricityUnitPrice Decimal   @db.Decimal(12, 2) @default(0) @map("electricity_unit_price")
+
+  waterPrevious        Decimal   @db.Decimal(12, 2) @default(0) @map("water_previous")
+  waterCurrent         Decimal   @db.Decimal(12, 2) @default(0) @map("water_current")
+  waterUsage           Decimal   @db.Decimal(12, 2) @default(0) @map("water_usage")
+  waterUnitPrice       Decimal   @db.Decimal(12, 2) @default(0) @map("water_unit_price")
+
+  recordedDate         DateTime? @map("recorded_date")
+  isLocked             Boolean   @default(false) @map("is_locked")
+  note                 String?
+
+  createdById          String    @map("created_by")
+  updatedById          String?   @map("updated_by")
+
+  motel                Motel     @relation(fields: [motelId], references: [id])
+  room                 Room      @relation(fields: [roomId], references: [id])
+  contract             Contract? @relation(fields: [contractId], references: [id])
+
+  createdBy            User      @relation("MeterReadingCreatedBy", fields: [createdById], references: [id])
+  updatedBy            User?     @relation("MeterReadingUpdatedBy", fields: [updatedById], references: [id])
+
+  invoices             Invoice[]
+
+  createdAt            DateTime  @default(now()) @map("created_at")
+  updatedAt            DateTime  @updatedAt @map("updated_at")
+
+  @@unique([roomId, readingMonth, readingYear])
+  @@map("meter_readings")
+}
+
+model Invoice {
+  id                     String        @id @default(cuid())
+  invoiceCode            String        @unique @map("invoice_code")
+
+  motelId                String        @map("motel_id")
+  roomId                 String        @map("room_id")
+  contractId             String        @map("contract_id")
+  representativeTenantId String        @map("representative_tenant_id")
+  meterReadingId         String?       @map("meter_reading_id")
+
+  invoiceMonth           Int           @map("invoice_month")
+  invoiceYear            Int           @map("invoice_year")
+  billingDate            DateTime      @map("billing_date")
+  dueDate                DateTime?     @map("due_date")
+
+  roomSnapshot           String        @map("room_snapshot")
+  tenantSnapshot         String        @map("tenant_snapshot")
+
+  rentAmount             Decimal       @db.Decimal(12, 2) @default(0) @map("rent_amount")
+  electricityAmount      Decimal       @db.Decimal(12, 2) @default(0) @map("electricity_amount")
+  waterAmount            Decimal       @db.Decimal(12, 2) @default(0) @map("water_amount")
+  serviceFeeAmount       Decimal       @db.Decimal(12, 2) @default(0) @map("service_fee_amount")
+  surchargeAmount        Decimal       @db.Decimal(12, 2) @default(0) @map("surcharge_amount")
+  discountAmount         Decimal       @db.Decimal(12, 2) @default(0) @map("discount_amount")
+  totalAmount            Decimal       @db.Decimal(12, 2) @default(0) @map("total_amount")
+  paidAmount             Decimal       @db.Decimal(12, 2) @default(0) @map("paid_amount")
+
+  status                 InvoiceStatus @default(DRAFT)
+  autoGenerated          Boolean       @default(false) @map("auto_generated")
+  note                   String?
+
+  createdById            String        @map("created_by")
+  updatedById            String?       @map("updated_by")
+
+  motel                  Motel         @relation(fields: [motelId], references: [id])
+  room                   Room          @relation(fields: [roomId], references: [id])
+  contract               Contract      @relation(fields: [contractId], references: [id])
+  representativeTenant   Tenant        @relation("InvoiceRepresentativeTenant", fields: [representativeTenantId], references: [id])
+  meterReading           MeterReading? @relation(fields: [meterReadingId], references: [id])
+
+  createdBy              User          @relation("InvoiceCreatedBy", fields: [createdById], references: [id])
+  updatedBy              User?         @relation("InvoiceUpdatedBy", fields: [updatedById], references: [id])
+
+  invoiceItems           InvoiceItem[]
+  payments               Payment[]
+
+  createdAt              DateTime      @default(now()) @map("created_at")
+  updatedAt              DateTime      @updatedAt @map("updated_at")
+
+  @@unique([contractId, invoiceMonth, invoiceYear])
+  @@map("invoices")
+}
+
+model InvoiceItem {
+  id          String          @id @default(cuid())
+  invoiceId   String          @map("invoice_id")
+  itemType    InvoiceItemType @map("item_type")
+  description String
+  quantity    Decimal?        @db.Decimal(12, 2)
+  unitPrice   Decimal?        @db.Decimal(12, 2) @map("unit_price")
+  amount      Decimal         @db.Decimal(12, 2)
+  sortOrder   Int             @default(0) @map("sort_order")
+  createdAt   DateTime        @default(now()) @map("created_at")
+
+  invoice     Invoice         @relation(fields: [invoiceId], references: [id])
+
+  @@map("invoice_items")
+}
+
+model Payment {
+  id              String        @id @default(cuid())
+  invoiceId       String        @map("invoice_id")
+  paymentCode     String?       @unique @map("payment_code")
+  amount          Decimal       @db.Decimal(12, 2)
+  paymentDate     DateTime      @map("payment_date")
+  paymentMethod   PaymentMethod @map("payment_method")
+  referenceNumber String?       @map("reference_number")
+  note            String?
+
+  recordedById    String        @map("recorded_by")
+  recordedBy      User          @relation("PaymentRecordedBy", fields: [recordedById], references: [id])
+
+  invoice         Invoice       @relation(fields: [invoiceId], references: [id])
+
+  createdAt       DateTime      @default(now()) @map("created_at")
+  updatedAt       DateTime      @updatedAt @map("updated_at")
+
+  @@map("payments")
+}
+
+model Feedback {
+  id           String            @id @default(cuid())
+  title        String
+  description  String
+  category     FeedbackCategory
+  priority     FeedbackPriority  @default(MEDIUM)
+  status       FeedbackStatus    @default(NEW)
+  images       String[]          @default([])
+  resolution   String?
+
+  tenantId     String            @map("tenant_id")
+  motelId      String            @map("motel_id")
+  roomId       String?           @map("room_id")
+  createdById  String            @map("created_by")
+  assignedToId String?           @map("assigned_to")
+
+  tenant       Tenant            @relation(fields: [tenantId], references: [id])
+  motel        Motel             @relation(fields: [motelId], references: [id])
+  room         Room?             @relation(fields: [roomId], references: [id])
+  createdBy    User              @relation("FeedbackCreatedBy", fields: [createdById], references: [id])
+  assignedTo   User?             @relation("FeedbackAssignedTo", fields: [assignedToId], references: [id])
+
+  createdAt    DateTime          @default(now()) @map("created_at")
+  updatedAt    DateTime          @updatedAt @map("updated_at")
+
+  @@index([motelId, status])
+  @@index([tenantId])
+  @@map("feedbacks")
+}
+
+model Expense {
+  id          String          @id @default(cuid())
+  motelId     String          @map("motel_id")
+  category    ExpenseCategory
+  amount      Decimal         @db.Decimal(12, 2)
+  description String
+  note        String?
+  date        DateTime        @db.Date
+  status      ExpenseStatus   @default(PENDING)
+  images      String[]        @default([])
+
+  motel       Motel           @relation(fields: [motelId], references: [id])
+
+  createdAt   DateTime        @default(now()) @map("created_at")
+  updatedAt   DateTime        @updatedAt @map("updated_at")
+
+  @@map("expenses")
+}
