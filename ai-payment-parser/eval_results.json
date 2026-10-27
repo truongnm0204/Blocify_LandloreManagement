@@ -1,0 +1,16 @@
+{
+  "model": "blocify-payment",
+  "total_samples": 100,
+  "parse_errors": 0,
+  "exact_match": 72,
+  "exact_match_pct": 72.0,
+  "field_accuracy": {
+    "tenant_name": 81.0,
+    "room_code": 88.0,
+    "month": 90.0,
+    "year": 96.0,
+    "invoice_code": 100.0
+  },
+  "overall_field_accuracy": 91.0,
+  "time_seconds": 68.6
+}

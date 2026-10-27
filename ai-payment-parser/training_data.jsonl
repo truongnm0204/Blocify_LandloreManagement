@@ -1,0 +1,500 @@
+{"input": "TIEN PHONG 203 THANG 1/2025 NGO HOANG DUC", "output": {"tenant_name": "NGO HOANG DUC", "room_code": "203", "month": 1, "year": 2025, "invoice_code": null}}
+{"input": "NGO MINH MINH TT PHONG 201 KY 10/2026", "output": {"tenant_name": "NGO MINH MINH", "room_code": "201", "month": 10, "year": 2026, "invoice_code": null}}
+{"input": "PHAM XUAN MINH CK TIEN PHONG 401 T4/2026", "output": {"tenant_name": "PHAM XUAN MINH", "room_code": "401", "month": 4, "year": 2026, "invoice_code": null}}
+{"input": "CK TIEN NHA LE THANH", "output": {"tenant_name": "LE THANH", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "TRAN HOANG MINH TIEN TRO T5", "output": {"tenant_name": "TRAN HOANG MINH", "room_code": null, "month": 5, "year": null, "invoice_code": null}}
+{"input": "HOANG DUC THI CK P102", "output": {"tenant_name": "HOANG DUC THI", "room_code": "102", "month": null, "year": null, "invoice_code": null}}
+{"input": "CK TIEN PHONG 201 THANG 12 NAM 2025 DANG HOANG", "output": {"tenant_name": "DANG HOANG", "room_code": "201", "month": 12, "year": 2025, "invoice_code": null}}
+{"input": "CK DANG HOANG HD-2603-079", "output": {"tenant_name": "DANG HOANG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2603-079"}}
+{"input": "THANH TOAN HOA DON HD-2609-025 DINH DUC PHUONG", "output": {"tenant_name": "DINH DUC PHUONG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2609-025"}}
+{"input": "DINH HUU MINH THANH TOAN TIEN NHA P102 T8/2025", "output": {"tenant_name": "DINH HUU MINH", "room_code": "102", "month": 8, "year": 2025, "invoice_code": null}}
+{"input": "TIEN PHONG 201 THANG 10/2026 VU NGOC THANH", "output": {"tenant_name": "VU NGOC THANH", "room_code": "201", "month": 10, "year": 2026, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 6 NGUYEN VAN HOANG", "output": {"tenant_name": "NGUYEN VAN HOANG", "room_code": null, "month": 6, "year": null, "invoice_code": null}}
+{"input": "DINH HOANG TIEN TRO PHONG 501 T6 2025", "output": {"tenant_name": "DINH HOANG", "room_code": "501", "month": 6, "year": 2025, "invoice_code": null}}
+{"input": "TIEN PHONG NGO NGOC ANH", "output": {"tenant_name": "NGO NGOC ANH", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "PHAM VAN MINH TT PHONG 301 T6", "output": {"tenant_name": "PHAM VAN MINH", "room_code": "301", "month": 6, "year": null, "invoice_code": null}}
+{"input": "HOANG DINH QUANG MBVCB CK P202 THANG 8", "output": {"tenant_name": "HOANG DINH QUANG", "room_code": "202", "month": 8, "year": null, "invoice_code": null}}
+{"input": "THANH TOAN HOA DON HD-2511-087 LE THANH THI", "output": {"tenant_name": "LE THANH THI", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2511-087"}}
+{"input": "VO THANH PHUONG CHUYEN KHOAN", "output": {"tenant_name": "VO THANH PHUONG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "TRAN HOANG VAN CK TIEN PHONG 103", "output": {"tenant_name": "TRAN HOANG VAN", "room_code": "103", "month": null, "year": null, "invoice_code": null}}
+{"input": "DO MINH VAN CK TIEN PHONG", "output": {"tenant_name": "DO MINH VAN", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "NGO VAN THANH TOAN HD-2602-029", "output": {"tenant_name": "NGO VAN", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2602-029"}}
+{"input": "CK DO MINH MINH HD-2601-011", "output": {"tenant_name": "DO MINH MINH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2601-011"}}
+{"input": "NGO HUU NGOC CK P101 THANG2/2026", "output": {"tenant_name": "NGO HUU NGOC", "room_code": "101", "month": 2, "year": 2026, "invoice_code": null}}
+{"input": "DO XUAN VAN TT PHONG 501 T5", "output": {"tenant_name": "DO XUAN VAN", "room_code": "501", "month": 5, "year": null, "invoice_code": null}}
+{"input": "DO QUOC THANH CK HD-2501-086 PHONG 401", "output": {"tenant_name": "DO QUOC THANH", "room_code": "401", "month": null, "year": null, "invoice_code": "HD-2501-086"}}
+{"input": "NGO PHUONG CHUYEN KHOAN", "output": {"tenant_name": "NGO PHUONG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "BUI DINH HOANG TIEN TRO PHONG 305 T8 2026", "output": {"tenant_name": "BUI DINH HOANG", "room_code": "305", "month": 8, "year": 2026, "invoice_code": null}}
+{"input": "VU NGOC CK P301 THANG10/2025", "output": {"tenant_name": "VU NGOC", "room_code": "301", "month": 10, "year": 2025, "invoice_code": null}}
+{"input": "LUONG NGOC THANH MBVCB CK P402 THANG 7", "output": {"tenant_name": "LUONG NGOC THANH", "room_code": "402", "month": 7, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 4 VO THANH VAN", "output": {"tenant_name": "VO THANH VAN", "room_code": null, "month": 4, "year": null, "invoice_code": null}}
+{"input": "CK LE QUOC ANH HD-2508-022", "output": {"tenant_name": "LE QUOC ANH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2508-022"}}
+{"input": "VU HOANG DUC TIEN TRO PHONG 303 T6 2026", "output": {"tenant_name": "VU HOANG DUC", "room_code": "303", "month": 6, "year": 2026, "invoice_code": null}}
+{"input": "NGO HOANG MINH 0957226329 CK P303 T3", "output": {"tenant_name": "NGO HOANG MINH", "room_code": "303", "month": 3, "year": null, "invoice_code": null}}
+{"input": "HOANG NGOC VAN CK P301", "output": {"tenant_name": "HOANG NGOC VAN", "room_code": "301", "month": null, "year": null, "invoice_code": null}}
+{"input": "DINH THANH THI CK TIEN PHONG 101 T4/2026 BLOCIFY", "output": {"tenant_name": "DINH THANH THI", "room_code": "101", "month": 4, "year": 2026, "invoice_code": null}}
+{"input": "LUONG HUU VAN MBVCB CK P302 THANG 2", "output": {"tenant_name": "LUONG HUU VAN", "room_code": "302", "month": 2, "year": null, "invoice_code": null}}
+{"input": "LE QUOC HOANG CK TIEN PHONG", "output": {"tenant_name": "LE QUOC HOANG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "DO HOANG DUC TT HD-2502-079 P501", "output": {"tenant_name": "DO HOANG DUC", "room_code": "501", "month": null, "year": null, "invoice_code": "HD-2502-079"}}
+{"input": "DO XUAN THI CK P202 THANG12/2026", "output": {"tenant_name": "DO XUAN THI", "room_code": "202", "month": 12, "year": 2026, "invoice_code": null}}
+{"input": "CK TIEN PHONG 102 NGUYEN DINH PHUONG", "output": {"tenant_name": "NGUYEN DINH PHUONG", "room_code": "102", "month": null, "year": null, "invoice_code": null}}
+{"input": "VU QUANG CK HD-2603-049 PHONG 301", "output": {"tenant_name": "VU QUANG", "room_code": "301", "month": null, "year": null, "invoice_code": "HD-2603-049"}}
+{"input": "DINH DUC MINH THANH TOAN TIEN NHA P201 T9/2026", "output": {"tenant_name": "DINH DUC MINH", "room_code": "201", "month": 9, "year": 2026, "invoice_code": null}}
+{"input": "FT69959826 DANG NGOC MINH CK TIEN PHONG 101", "output": {"tenant_name": "DANG NGOC MINH", "room_code": "101", "month": null, "year": null, "invoice_code": null}}
+{"input": "NGUYEN NGOC PHUONG CK TIEN PHONG", "output": {"tenant_name": "NGUYEN NGOC PHUONG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "VU DUC NGOC TT PHONG 303 T12", "output": {"tenant_name": "VU DUC NGOC", "room_code": "303", "month": 12, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 12 LE QUOC THI", "output": {"tenant_name": "LE QUOC THI", "room_code": null, "month": 12, "year": null, "invoice_code": null}}
+{"input": "HOANG HUU ANH CK P305 THANG12/2026", "output": {"tenant_name": "HOANG HUU ANH", "room_code": "305", "month": 12, "year": 2026, "invoice_code": null}}
+{"input": "NGO ANH CHUYEN KHOAN TIEN PHONG 301 THANG 9/2026", "output": {"tenant_name": "NGO ANH", "room_code": "301", "month": 9, "year": 2026, "invoice_code": null}}
+{"input": "VO VAN THANH TIEN TRO PHONG 301 T4 2025", "output": {"tenant_name": "VO VAN THANH", "room_code": "301", "month": 4, "year": 2025, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 5 LUONG MINH THANH", "output": {"tenant_name": "LUONG MINH THANH", "room_code": null, "month": 5, "year": null, "invoice_code": null}}
+{"input": "PHAM QUOC VAN TIEN TRO PHONG 103 T7 2025", "output": {"tenant_name": "PHAM QUOC VAN", "room_code": "103", "month": 7, "year": 2025, "invoice_code": null}}
+{"input": "BUI DUC HOANG TIEN TRO PHONG 303 T8 2026", "output": {"tenant_name": "BUI DUC HOANG", "room_code": "303", "month": 8, "year": 2026, "invoice_code": null}}
+{"input": "NGUYEN HOANG THANH CK P305", "output": {"tenant_name": "NGUYEN HOANG THANH", "room_code": "305", "month": null, "year": null, "invoice_code": null}}
+{"input": "VO DINH PHUONG TIEN TRO T8", "output": {"tenant_name": "VO DINH PHUONG", "room_code": null, "month": 8, "year": null, "invoice_code": null}}
+{"input": "VO QUOC VAN TT PHONG 302 KY 3/2025", "output": {"tenant_name": "VO QUOC VAN", "room_code": "302", "month": 3, "year": 2025, "invoice_code": null}}
+{"input": "LE DINH PHUONG CHUYEN KHOAN", "output": {"tenant_name": "LE DINH PHUONG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 11 LUONG THANH NGOC", "output": {"tenant_name": "LUONG THANH NGOC", "room_code": null, "month": 11, "year": null, "invoice_code": null}}
+{"input": "DINH HUU THI TIEN TRO T8", "output": {"tenant_name": "DINH HUU THI", "room_code": null, "month": 8, "year": null, "invoice_code": null}}
+{"input": "LE THANH QUANG TIEN TRO PHONG 203 T9 2026", "output": {"tenant_name": "LE THANH QUANG", "room_code": "203", "month": 9, "year": 2026, "invoice_code": null}}
+{"input": "CK VO DINH DUC HD-2503-094", "output": {"tenant_name": "VO DINH DUC", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2503-094"}}
+{"input": "PHAM QUOC NGOC THANH TOAN TIEN NHA P203 T7/2026", "output": {"tenant_name": "PHAM QUOC NGOC", "room_code": "203", "month": 7, "year": 2026, "invoice_code": null}}
+{"input": "IBFT BUI MINH THANH TIEN PHONG 401 T8/2025", "output": {"tenant_name": "BUI MINH THANH", "room_code": "401", "month": 8, "year": 2025, "invoice_code": null}}
+{"input": "VO THANH VAN CK TIEN PHONG", "output": {"tenant_name": "VO THANH VAN", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "CK TIEN NHA LUONG VAN THANH", "output": {"tenant_name": "LUONG VAN THANH", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "HOANG THANH CK TIEN PHONG 203", "output": {"tenant_name": "HOANG THANH", "room_code": "203", "month": null, "year": null, "invoice_code": null}}
+{"input": "NGO VAN MINH CHUYEN KHOAN", "output": {"tenant_name": "NGO VAN MINH", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "LE QUOC PHUONG CHUYEN KHOAN TIEN PHONG 302 THANG 9/2026", "output": {"tenant_name": "LE QUOC PHUONG", "room_code": "302", "month": 9, "year": 2026, "invoice_code": null}}
+{"input": "DANG NGOC THI CK HD-2508-010 PHONG 101", "output": {"tenant_name": "DANG NGOC THI", "room_code": "101", "month": null, "year": null, "invoice_code": "HD-2508-010"}}
+{"input": "TIEN PHONG PHAM XUAN MINH", "output": {"tenant_name": "PHAM XUAN MINH", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "BUI VAN PHUONG CHUYEN KHOAN TIEN NHA P201", "output": {"tenant_name": "BUI VAN PHUONG", "room_code": "201", "month": null, "year": null, "invoice_code": null}}
+{"input": "LUONG VAN NGOC TT HD-2602-056 P202", "output": {"tenant_name": "LUONG VAN NGOC", "room_code": "202", "month": null, "year": null, "invoice_code": "HD-2602-056"}}
+{"input": "NGUYEN QUOC THANH CK TIEN PHONG 402", "output": {"tenant_name": "NGUYEN QUOC THANH", "room_code": "402", "month": null, "year": null, "invoice_code": null}}
+{"input": "DINH NGOC QUANG THANH TOAN HD-2512-067", "output": {"tenant_name": "DINH NGOC QUANG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2512-067"}}
+{"input": "TRAN HOANG ANH CHUYEN KHOAN TIEN NHA P501", "output": {"tenant_name": "TRAN HOANG ANH", "room_code": "501", "month": null, "year": null, "invoice_code": null}}
+{"input": "THANH TOAN HOA DON HD-2604-075 DINH VAN VAN", "output": {"tenant_name": "DINH VAN VAN", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2604-075"}}
+{"input": "HOANG VAN PHUONG CK HD-2611-023 PHONG 402", "output": {"tenant_name": "HOANG VAN PHUONG", "room_code": "402", "month": null, "year": null, "invoice_code": "HD-2611-023"}}
+{"input": "TIEN PHONG THANG 10 PHAM THI PHUONG", "output": {"tenant_name": "PHAM THI PHUONG", "room_code": null, "month": 10, "year": null, "invoice_code": null}}
+{"input": "VU MINH DUC CHUYEN KHOAN", "output": {"tenant_name": "VU MINH DUC", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG HOANG DUC", "output": {"tenant_name": "HOANG DUC", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "TRAN THANH THI 0989188862 CK P401 T6", "output": {"tenant_name": "TRAN THANH THI", "room_code": "401", "month": 6, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG DANG MINH", "output": {"tenant_name": "DANG MINH", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "LUONG NGOC MINH CK TIEN PHONG 203", "output": {"tenant_name": "LUONG NGOC MINH", "room_code": "203", "month": null, "year": null, "invoice_code": null}}
+{"input": "PHAM NGOC DUC TT PHONG 305 KY 8/2025", "output": {"tenant_name": "PHAM NGOC DUC", "room_code": "305", "month": 8, "year": 2025, "invoice_code": null}}
+{"input": "CK TIEN PHONG 301 LE HOANG PHUONG", "output": {"tenant_name": "LE HOANG PHUONG", "room_code": "301", "month": null, "year": null, "invoice_code": null}}
+{"input": "BUI MINH THANH TOAN HD-2508-053", "output": {"tenant_name": "BUI MINH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2508-053"}}
+{"input": "BUI HOANG MINH TT PHONG 301 T11", "output": {"tenant_name": "BUI HOANG MINH", "room_code": "301", "month": 11, "year": null, "invoice_code": null}}
+{"input": "DINH THI NGOC CK P203 THANG3/2025", "output": {"tenant_name": "DINH THI NGOC", "room_code": "203", "month": 3, "year": 2025, "invoice_code": null}}
+{"input": "CK TIEN PHONG 203 VU DUC DUC", "output": {"tenant_name": "VU DUC DUC", "room_code": "203", "month": null, "year": null, "invoice_code": null}}
+{"input": "LE THI THANH THANH TOAN HD-2507-095", "output": {"tenant_name": "LE THI THANH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2507-095"}}
+{"input": "TRAN XUAN THI CHUYEN KHOAN TIEN PHONG 402 THANG 11/2026", "output": {"tenant_name": "TRAN XUAN THI", "room_code": "402", "month": 11, "year": 2026, "invoice_code": null}}
+{"input": "DANG THANH TT PHONG 501 KY 6/2025", "output": {"tenant_name": "DANG THANH", "room_code": "501", "month": 6, "year": 2025, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 5 LE DINH THI", "output": {"tenant_name": "LE DINH THI", "room_code": null, "month": 5, "year": null, "invoice_code": null}}
+{"input": "CK TIEN PHONG 201 THANG 11 NAM 2026 BUI NGOC THANH", "output": {"tenant_name": "BUI NGOC THANH", "room_code": "201", "month": 11, "year": 2026, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 7 VU QUOC THANH", "output": {"tenant_name": "VU QUOC THANH", "room_code": null, "month": 7, "year": null, "invoice_code": null}}
+{"input": "PHAM MINH VAN THANH TOAN TIEN NHA P305 T3/2025", "output": {"tenant_name": "PHAM MINH VAN", "room_code": "305", "month": 3, "year": 2025, "invoice_code": null}}
+{"input": "TRAN VAN CK TIEN PHONG 301", "output": {"tenant_name": "TRAN VAN", "room_code": "301", "month": null, "year": null, "invoice_code": null}}
+{"input": "CK TIEN PHONG 101 THANG 6 NAM 2026 VO HOANG", "output": {"tenant_name": "VO HOANG", "room_code": "101", "month": 6, "year": 2026, "invoice_code": null}}
+{"input": "THANH TOAN HOA DON HD-2504-070 VU QUANG", "output": {"tenant_name": "VU QUANG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2504-070"}}
+{"input": "DINH THI QUANG TT PHONG 401 KY 8/2025", "output": {"tenant_name": "DINH THI QUANG", "room_code": "401", "month": 8, "year": 2025, "invoice_code": null}}
+{"input": "HOANG VAN ANH CHUYEN KHOAN TIEN NHA P401", "output": {"tenant_name": "HOANG VAN ANH", "room_code": "401", "month": null, "year": null, "invoice_code": null}}
+{"input": "VU THI ANH CHUYEN KHOAN TIEN NHA P401", "output": {"tenant_name": "VU THI ANH", "room_code": "401", "month": null, "year": null, "invoice_code": null}}
+{"input": "DO NGOC PHUONG MBVCB CK P301 THANG 7", "output": {"tenant_name": "DO NGOC PHUONG", "room_code": "301", "month": 7, "year": null, "invoice_code": null}}
+{"input": "DO THANH VAN TIEN TRO T8", "output": {"tenant_name": "DO THANH VAN", "room_code": null, "month": 8, "year": null, "invoice_code": null}}
+{"input": "CK NGUYEN THANH DUC HD-2505-017", "output": {"tenant_name": "NGUYEN THANH DUC", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2505-017"}}
+{"input": "CK NGUYEN NGOC VAN HD-2606-056", "output": {"tenant_name": "NGUYEN NGOC VAN", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2606-056"}}
+{"input": "CK TIEN PHONG 203 THANG 3 NAM 2026 VU VAN DUC", "output": {"tenant_name": "VU VAN DUC", "room_code": "203", "month": 3, "year": 2026, "invoice_code": null}}
+{"input": "VO NGOC NGOC THANH TOAN HD-2506-026", "output": {"tenant_name": "VO NGOC NGOC", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2506-026"}}
+{"input": "CK PHAM NGOC MINH HD-2612-035", "output": {"tenant_name": "PHAM NGOC MINH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2612-035"}}
+{"input": "DO MINH THI CK TIEN PHONG 401 T8/2026", "output": {"tenant_name": "DO MINH THI", "room_code": "401", "month": 8, "year": 2026, "invoice_code": null}}
+{"input": "CK TIEN PHONG 305 DANG DUC NGOC", "output": {"tenant_name": "DANG DUC NGOC", "room_code": "305", "month": null, "year": null, "invoice_code": null}}
+{"input": "NGUYEN HUU DUC TIEN TRO PHONG 401 T9 2025", "output": {"tenant_name": "NGUYEN HUU DUC", "room_code": "401", "month": 9, "year": 2025, "invoice_code": null}}
+{"input": "DO HOANG PHUONG CK TIEN PHONG 203 T7/2026 BLOCIFY", "output": {"tenant_name": "DO HOANG PHUONG", "room_code": "203", "month": 7, "year": 2026, "invoice_code": null}}
+{"input": "PHAM MINH HOANG 0927101146 CK P101 T7", "output": {"tenant_name": "PHAM MINH HOANG", "room_code": "101", "month": 7, "year": null, "invoice_code": null}}
+{"input": "CK TIEN NHA NGO HUU HOANG", "output": {"tenant_name": "NGO HUU HOANG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "CK NGUYEN VAN NGOC HD-2502-079", "output": {"tenant_name": "NGUYEN VAN NGOC", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2502-079"}}
+{"input": "TIEN PHONG THANG 10 LE DUC DUC", "output": {"tenant_name": "LE DUC DUC", "room_code": null, "month": 10, "year": null, "invoice_code": null}}
+{"input": "TRAN VAN QUANG CK P101 THANG4/2026", "output": {"tenant_name": "TRAN VAN QUANG", "room_code": "101", "month": 4, "year": 2026, "invoice_code": null}}
+{"input": "LE XUAN HOANG CK HD-2509-053 PHONG 101", "output": {"tenant_name": "LE XUAN HOANG", "room_code": "101", "month": null, "year": null, "invoice_code": "HD-2509-053"}}
+{"input": "CK NGUYEN HUU THANH HD-2609-084", "output": {"tenant_name": "NGUYEN HUU THANH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2609-084"}}
+{"input": "NGO THANH HOANG CHUYEN KHOAN TIEN NHA P101", "output": {"tenant_name": "NGO THANH HOANG", "room_code": "101", "month": null, "year": null, "invoice_code": null}}
+{"input": "BUI THI HOANG THANH TOAN TIEN NHA P101 T7/2026", "output": {"tenant_name": "BUI THI HOANG", "room_code": "101", "month": 7, "year": 2026, "invoice_code": null}}
+{"input": "THANH TOAN HOA DON HD-2601-053 TRAN NGOC HOANG", "output": {"tenant_name": "TRAN NGOC HOANG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2601-053"}}
+{"input": "TIEN PHONG TRAN THANH HOANG", "output": {"tenant_name": "TRAN THANH HOANG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "CK TIEN NHA LUONG DINH DUC", "output": {"tenant_name": "LUONG DINH DUC", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG 102 THANG 2/2026 DANG DUC", "output": {"tenant_name": "DANG DUC", "room_code": "102", "month": 2, "year": 2026, "invoice_code": null}}
+{"input": "CK TIEN PHONG 401 DO QUOC ANH", "output": {"tenant_name": "DO QUOC ANH", "room_code": "401", "month": null, "year": null, "invoice_code": null}}
+{"input": "TRAN HUU THANH CK P201 THANG5/2026", "output": {"tenant_name": "TRAN HUU THANH", "room_code": "201", "month": 5, "year": 2026, "invoice_code": null}}
+{"input": "CK TIEN PHONG 103 THANG 7 NAM 2025 DINH VAN", "output": {"tenant_name": "DINH VAN", "room_code": "103", "month": 7, "year": 2025, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 9 NGO DUC VAN", "output": {"tenant_name": "NGO DUC VAN", "room_code": null, "month": 9, "year": null, "invoice_code": null}}
+{"input": "CK TIEN PHONG 202 THANG 1 NAM 2026 VU NGOC ANH", "output": {"tenant_name": "VU NGOC ANH", "room_code": "202", "month": 1, "year": 2026, "invoice_code": null}}
+{"input": "DANG DUC THANH TT HD-2611-024 P102", "output": {"tenant_name": "DANG DUC THANH", "room_code": "102", "month": null, "year": null, "invoice_code": "HD-2611-024"}}
+{"input": "BUI ANH THANH TOAN TIEN NHA P303 T7/2025", "output": {"tenant_name": "BUI ANH", "room_code": "303", "month": 7, "year": 2025, "invoice_code": null}}
+{"input": "CK TIEN TRO HOANG ANH", "output": {"tenant_name": "HOANG ANH", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "VU MINH HOANG CHUYEN KHOAN TIEN NHA P202", "output": {"tenant_name": "VU MINH HOANG", "room_code": "202", "month": null, "year": null, "invoice_code": null}}
+{"input": "BUI VAN NGOC CHUYEN KHOAN TIEN NHA P402", "output": {"tenant_name": "BUI VAN NGOC", "room_code": "402", "month": null, "year": null, "invoice_code": null}}
+{"input": "TRAN HOANG QUANG CHUYEN KHOAN", "output": {"tenant_name": "TRAN HOANG QUANG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "DINH QUOC PHUONG THANH TOAN HD-2507-067", "output": {"tenant_name": "DINH QUOC PHUONG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2507-067"}}
+{"input": "NGO DUC VAN THANH TOAN HD-2505-037", "output": {"tenant_name": "NGO DUC VAN", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2505-037"}}
+{"input": "NGUYEN QUOC NGOC CK TIEN PHONG", "output": {"tenant_name": "NGUYEN QUOC NGOC", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "CK DANG XUAN MINH HD-2508-085", "output": {"tenant_name": "DANG XUAN MINH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2508-085"}}
+{"input": "VU DINH VAN TIEN TRO T2", "output": {"tenant_name": "VU DINH VAN", "room_code": null, "month": 2, "year": null, "invoice_code": null}}
+{"input": "CK TIEN TRO DANG QUOC VAN", "output": {"tenant_name": "DANG QUOC VAN", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "CK VU DINH MINH HD-2603-020", "output": {"tenant_name": "VU DINH MINH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2603-020"}}
+{"input": "TIEN PHONG THANG 7 VO NGOC THI", "output": {"tenant_name": "VO NGOC THI", "room_code": null, "month": 7, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG DO MINH DUC", "output": {"tenant_name": "DO MINH DUC", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG 203 THANG 2/2026 HOANG VAN", "output": {"tenant_name": "HOANG VAN", "room_code": "203", "month": 2, "year": 2026, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 10 BUI XUAN HOANG", "output": {"tenant_name": "BUI XUAN HOANG", "room_code": null, "month": 10, "year": null, "invoice_code": null}}
+{"input": "DINH DUC QUANG TIEN TRO PHONG 401 T3 2025", "output": {"tenant_name": "DINH DUC QUANG", "room_code": "401", "month": 3, "year": 2025, "invoice_code": null}}
+{"input": "PHAM QUOC QUANG TIEN TRO T2", "output": {"tenant_name": "PHAM QUOC QUANG", "room_code": null, "month": 2, "year": null, "invoice_code": null}}
+{"input": "HOANG MINH VAN THANH TOAN TIEN NHA P501 T10/2025", "output": {"tenant_name": "HOANG MINH VAN", "room_code": "501", "month": 10, "year": 2025, "invoice_code": null}}
+{"input": "CK TIEN NHA VU THI DUC", "output": {"tenant_name": "VU THI DUC", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "NGO VAN HOANG CHUYEN KHOAN", "output": {"tenant_name": "NGO VAN HOANG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "DANG HUU MINH CK TIEN PHONG 501", "output": {"tenant_name": "DANG HUU MINH", "room_code": "501", "month": null, "year": null, "invoice_code": null}}
+{"input": "DO MINH DUC 0998309564 CK P203 T10", "output": {"tenant_name": "DO MINH DUC", "room_code": "203", "month": 10, "year": null, "invoice_code": null}}
+{"input": "DANG THANH NGOC CK HD-2505-039 PHONG 301", "output": {"tenant_name": "DANG THANH NGOC", "room_code": "301", "month": null, "year": null, "invoice_code": "HD-2505-039"}}
+{"input": "DANG MINH ANH CK TIEN PHONG 305 T4/2025 BLOCIFY", "output": {"tenant_name": "DANG MINH ANH", "room_code": "305", "month": 4, "year": 2025, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 10 DINH DINH QUANG", "output": {"tenant_name": "DINH DINH QUANG", "room_code": null, "month": 10, "year": null, "invoice_code": null}}
+{"input": "LE XUAN MINH THANH TOAN HD-2606-082", "output": {"tenant_name": "LE XUAN MINH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2606-082"}}
+{"input": "DINH VAN DUC THANH TOAN TIEN NHA P202 T5/2026", "output": {"tenant_name": "DINH VAN DUC", "room_code": "202", "month": 5, "year": 2026, "invoice_code": null}}
+{"input": "NGUYEN XUAN THI CK P401 THANG9/2026", "output": {"tenant_name": "NGUYEN XUAN THI", "room_code": "401", "month": 9, "year": 2026, "invoice_code": null}}
+{"input": "PHAM DUC MINH TIEN TRO PHONG 203 T5 2025", "output": {"tenant_name": "PHAM DUC MINH", "room_code": "203", "month": 5, "year": 2025, "invoice_code": null}}
+{"input": "LE DUC THI TT PHONG 401 T3", "output": {"tenant_name": "LE DUC THI", "room_code": "401", "month": 3, "year": null, "invoice_code": null}}
+{"input": "THANH TOAN HOA DON HD-2507-073 LUONG QUOC NGOC", "output": {"tenant_name": "LUONG QUOC NGOC", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2507-073"}}
+{"input": "PHAM MINH DUC TT PHONG 202 KY 12/2026", "output": {"tenant_name": "PHAM MINH DUC", "room_code": "202", "month": 12, "year": 2026, "invoice_code": null}}
+{"input": "VU THI MINH CK TIEN PHONG 203 T5/2025", "output": {"tenant_name": "VU THI MINH", "room_code": "203", "month": 5, "year": 2025, "invoice_code": null}}
+{"input": "DINH VAN CK TIEN PHONG 305 T8/2026", "output": {"tenant_name": "DINH VAN", "room_code": "305", "month": 8, "year": 2026, "invoice_code": null}}
+{"input": "NGO VAN HOANG CK HD-2605-046 PHONG 102", "output": {"tenant_name": "NGO VAN HOANG", "room_code": "102", "month": null, "year": null, "invoice_code": "HD-2605-046"}}
+{"input": "DO THI TIEN TRO T9", "output": {"tenant_name": "DO THI", "room_code": null, "month": 9, "year": null, "invoice_code": null}}
+{"input": "PHAM HOANG DUC CK TIEN PHONG 102 T1/2026 BLOCIFY", "output": {"tenant_name": "PHAM HOANG DUC", "room_code": "102", "month": 1, "year": 2026, "invoice_code": null}}
+{"input": "DANG XUAN THANH TIEN TRO PHONG 501 T5 2025", "output": {"tenant_name": "DANG XUAN THANH", "room_code": "501", "month": 5, "year": 2025, "invoice_code": null}}
+{"input": "NGUYEN THANH DUC CHUYEN KHOAN TIEN PHONG 302 THANG 5/2025", "output": {"tenant_name": "NGUYEN THANH DUC", "room_code": "302", "month": 5, "year": 2025, "invoice_code": null}}
+{"input": "DANG HUU DUC TT HD-2603-082 P202", "output": {"tenant_name": "DANG HUU DUC", "room_code": "202", "month": null, "year": null, "invoice_code": "HD-2603-082"}}
+{"input": "NGUYEN THI VAN TT PHONG 501 KY 1/2026", "output": {"tenant_name": "NGUYEN THI VAN", "room_code": "501", "month": 1, "year": 2026, "invoice_code": null}}
+{"input": "NGO DUC THI CK TIEN PHONG 101 T10/2026", "output": {"tenant_name": "NGO DUC THI", "room_code": "101", "month": 10, "year": 2026, "invoice_code": null}}
+{"input": "DO XUAN HOANG TT PHONG 302 T6", "output": {"tenant_name": "DO XUAN HOANG", "room_code": "302", "month": 6, "year": null, "invoice_code": null}}
+{"input": "PHAM THI VAN CK P201 THANG3/2026", "output": {"tenant_name": "PHAM THI VAN", "room_code": "201", "month": 3, "year": 2026, "invoice_code": null}}
+{"input": "NGO XUAN QUANG THANH TOAN TIEN NHA P101 T5/2025", "output": {"tenant_name": "NGO XUAN QUANG", "room_code": "101", "month": 5, "year": 2025, "invoice_code": null}}
+{"input": "CK TIEN PHONG 303 THANG 11 NAM 2025 LE QUANG", "output": {"tenant_name": "LE QUANG", "room_code": "303", "month": 11, "year": 2025, "invoice_code": null}}
+{"input": "DINH DUC PHUONG CK HD-2501-009 PHONG 203", "output": {"tenant_name": "DINH DUC PHUONG", "room_code": "203", "month": null, "year": null, "invoice_code": "HD-2501-009"}}
+{"input": "VO HUU DUC TT HD-2511-090 P101", "output": {"tenant_name": "VO HUU DUC", "room_code": "101", "month": null, "year": null, "invoice_code": "HD-2511-090"}}
+{"input": "DO THANH NGOC TIEN TRO T2", "output": {"tenant_name": "DO THANH NGOC", "room_code": null, "month": 2, "year": null, "invoice_code": null}}
+{"input": "NGO DINH VAN CHUYEN KHOAN TIEN PHONG 305 THANG 11/2026", "output": {"tenant_name": "NGO DINH VAN", "room_code": "305", "month": 11, "year": 2026, "invoice_code": null}}
+{"input": "CK HOANG MINH HOANG HD-2503-023", "output": {"tenant_name": "HOANG MINH HOANG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2503-023"}}
+{"input": "PHAM THANH PHUONG CK HD-2606-038 PHONG 201", "output": {"tenant_name": "PHAM THANH PHUONG", "room_code": "201", "month": null, "year": null, "invoice_code": "HD-2606-038"}}
+{"input": "CK TIEN PHONG 101 THANG 9 NAM 2025 DANG DUC ANH", "output": {"tenant_name": "DANG DUC ANH", "room_code": "101", "month": 9, "year": 2025, "invoice_code": null}}
+{"input": "HOANG THANH THANH CK HD-2502-041 PHONG 201", "output": {"tenant_name": "HOANG THANH THANH", "room_code": "201", "month": null, "year": null, "invoice_code": "HD-2502-041"}}
+{"input": "TIEN PHONG 102 THANG 12/2025 TRAN VAN", "output": {"tenant_name": "TRAN VAN", "room_code": "102", "month": 12, "year": 2025, "invoice_code": null}}
+{"input": "TIEN PHONG 305 THANG 7/2026 DANG NGOC THANH", "output": {"tenant_name": "DANG NGOC THANH", "room_code": "305", "month": 7, "year": 2026, "invoice_code": null}}
+{"input": "VU MINH MINH CHUYEN KHOAN TIEN NHA P401", "output": {"tenant_name": "VU MINH MINH", "room_code": "401", "month": null, "year": null, "invoice_code": null}}
+{"input": "TRAN HOANG PHUONG TT PHONG 102 KY 7/2025", "output": {"tenant_name": "TRAN HOANG PHUONG", "room_code": "102", "month": 7, "year": 2025, "invoice_code": null}}
+{"input": "NGUYEN DUC VAN CK TIEN PHONG", "output": {"tenant_name": "NGUYEN DUC VAN", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "NGO THI VAN CHUYEN KHOAN TIEN PHONG 402 THANG 5/2025", "output": {"tenant_name": "NGO THI VAN", "room_code": "402", "month": 5, "year": 2025, "invoice_code": null}}
+{"input": "PHAM NGOC ANH CK HD-2608-049 PHONG 302", "output": {"tenant_name": "PHAM NGOC ANH", "room_code": "302", "month": null, "year": null, "invoice_code": "HD-2608-049"}}
+{"input": "CK LUONG HOANG HD-2603-072", "output": {"tenant_name": "LUONG HOANG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2603-072"}}
+{"input": "NGUYEN THI QUANG 0985511909 CK P202 T1", "output": {"tenant_name": "NGUYEN THI QUANG", "room_code": "202", "month": 1, "year": null, "invoice_code": null}}
+{"input": "HOANG NGOC NGOC CK P303", "output": {"tenant_name": "HOANG NGOC NGOC", "room_code": "303", "month": null, "year": null, "invoice_code": null}}
+{"input": "CK TIEN PHONG 203 LUONG THI PHUONG", "output": {"tenant_name": "LUONG THI PHUONG", "room_code": "203", "month": null, "year": null, "invoice_code": null}}
+{"input": "CK TIEN TRO VU DUC ANH", "output": {"tenant_name": "VU DUC ANH", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "CK TIEN PHONG 102 DANG THANH NGOC", "output": {"tenant_name": "DANG THANH NGOC", "room_code": "102", "month": null, "year": null, "invoice_code": null}}
+{"input": "HOANG XUAN QUANG TIEN TRO PHONG 501 T4 2026", "output": {"tenant_name": "HOANG XUAN QUANG", "room_code": "501", "month": 4, "year": 2026, "invoice_code": null}}
+{"input": "DO VAN PHUONG THANH TOAN HD-2508-008", "output": {"tenant_name": "DO VAN PHUONG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2508-008"}}
+{"input": "FT20607151 VO NGOC HOANG CK TIEN PHONG 202", "output": {"tenant_name": "VO NGOC HOANG", "room_code": "202", "month": null, "year": null, "invoice_code": null}}
+{"input": "LUONG HUU ANH CK TIEN PHONG 101 T3/2025", "output": {"tenant_name": "LUONG HUU ANH", "room_code": "101", "month": 3, "year": 2025, "invoice_code": null}}
+{"input": "FT52857920 DANG MINH NGOC CK TIEN PHONG 305", "output": {"tenant_name": "DANG MINH NGOC", "room_code": "305", "month": null, "year": null, "invoice_code": null}}
+{"input": "DANG MINH THANH TOAN TIEN NHA P201 T12/2025", "output": {"tenant_name": "DANG MINH", "room_code": "201", "month": 12, "year": 2025, "invoice_code": null}}
+{"input": "TIEN PHONG 301 THANG 9/2026 VU THANH PHUONG", "output": {"tenant_name": "VU THANH PHUONG", "room_code": "301", "month": 9, "year": 2026, "invoice_code": null}}
+{"input": "NGUYEN MINH DUC MBVCB CK P102 THANG 8", "output": {"tenant_name": "NGUYEN MINH DUC", "room_code": "102", "month": 8, "year": null, "invoice_code": null}}
+{"input": "NGO DINH THANH TT PHONG 302 KY 10/2026", "output": {"tenant_name": "NGO DINH THANH", "room_code": "302", "month": 10, "year": 2026, "invoice_code": null}}
+{"input": "LE DUC 0963791320 CK P102 T9", "output": {"tenant_name": "LE DUC", "room_code": "102", "month": 9, "year": null, "invoice_code": null}}
+{"input": "CK TIEN PHONG 102 THANG 6 NAM 2026 NGO THI DUC", "output": {"tenant_name": "NGO THI DUC", "room_code": "102", "month": 6, "year": 2026, "invoice_code": null}}
+{"input": "LUONG HUU HOANG CHUYEN KHOAN TIEN PHONG 305 THANG 5/2026", "output": {"tenant_name": "LUONG HUU HOANG", "room_code": "305", "month": 5, "year": 2026, "invoice_code": null}}
+{"input": "THANH TOAN HOA DON HD-2605-086 DO NGOC THI", "output": {"tenant_name": "DO NGOC THI", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2605-086"}}
+{"input": "TRAN THANH DUC THANH TOAN TIEN NHA P501 T5/2026", "output": {"tenant_name": "TRAN THANH DUC", "room_code": "501", "month": 5, "year": 2026, "invoice_code": null}}
+{"input": "DO DUC HOANG CK P303", "output": {"tenant_name": "DO DUC HOANG", "room_code": "303", "month": null, "year": null, "invoice_code": null}}
+{"input": "DANG THANH THANH THANH TOAN TIEN NHA P303 T10/2025", "output": {"tenant_name": "DANG THANH THANH", "room_code": "303", "month": 10, "year": 2025, "invoice_code": null}}
+{"input": "FT12515446 BUI HUU NGOC CK TIEN PHONG 102", "output": {"tenant_name": "BUI HUU NGOC", "room_code": "102", "month": null, "year": null, "invoice_code": null}}
+{"input": "HOANG THANH CK P402", "output": {"tenant_name": "HOANG THANH", "room_code": "402", "month": null, "year": null, "invoice_code": null}}
+{"input": "VO MINH PHUONG MBVCB CK P501 THANG 12", "output": {"tenant_name": "VO MINH PHUONG", "room_code": "501", "month": 12, "year": null, "invoice_code": null}}
+{"input": "DANG THI NGOC TT HD-2502-006 P402", "output": {"tenant_name": "DANG THI NGOC", "room_code": "402", "month": null, "year": null, "invoice_code": "HD-2502-006"}}
+{"input": "LUONG THI VAN MBVCB CK P305 THANG 2", "output": {"tenant_name": "LUONG THI VAN", "room_code": "305", "month": 2, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 10 VO THI ANH", "output": {"tenant_name": "VO THI ANH", "room_code": null, "month": 10, "year": null, "invoice_code": null}}
+{"input": "PHAM HOANG DUC TT PHONG 102 KY 11/2026", "output": {"tenant_name": "PHAM HOANG DUC", "room_code": "102", "month": 11, "year": 2026, "invoice_code": null}}
+{"input": "CK TIEN PHONG 301 DANG MINH NGOC", "output": {"tenant_name": "DANG MINH NGOC", "room_code": "301", "month": null, "year": null, "invoice_code": null}}
+{"input": "NGUYEN HOANG HOANG CK P101 THANG4/2025", "output": {"tenant_name": "NGUYEN HOANG HOANG", "room_code": "101", "month": 4, "year": 2025, "invoice_code": null}}
+{"input": "LUONG DUC CK TIEN PHONG 303 T4/2026", "output": {"tenant_name": "LUONG DUC", "room_code": "303", "month": 4, "year": 2026, "invoice_code": null}}
+{"input": "DO HOANG THANH THANH TOAN TIEN NHA P101 T6/2025", "output": {"tenant_name": "DO HOANG THANH", "room_code": "101", "month": 6, "year": 2025, "invoice_code": null}}
+{"input": "PHAM HOANG PHUONG TT PHONG 501 KY 4/2025", "output": {"tenant_name": "PHAM HOANG PHUONG", "room_code": "501", "month": 4, "year": 2025, "invoice_code": null}}
+{"input": "NGUYEN QUOC THI CK TIEN PHONG 303", "output": {"tenant_name": "NGUYEN QUOC THI", "room_code": "303", "month": null, "year": null, "invoice_code": null}}
+{"input": "DINH DINH THI TT PHONG 302 KY 8/2026", "output": {"tenant_name": "DINH DINH THI", "room_code": "302", "month": 8, "year": 2026, "invoice_code": null}}
+{"input": "TRAN VAN QUANG CHUYEN KHOAN TIEN NHA P302", "output": {"tenant_name": "TRAN VAN QUANG", "room_code": "302", "month": null, "year": null, "invoice_code": null}}
+{"input": "CK TRAN DINH THI HD-2502-058", "output": {"tenant_name": "TRAN DINH THI", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2502-058"}}
+{"input": "DINH HUU HOANG CK TIEN PHONG 203 T1/2026 BLOCIFY", "output": {"tenant_name": "DINH HUU HOANG", "room_code": "203", "month": 1, "year": 2026, "invoice_code": null}}
+{"input": "PHAM THANH THANH THANH TOAN TIEN NHA P203 T7/2026", "output": {"tenant_name": "PHAM THANH THANH", "room_code": "203", "month": 7, "year": 2026, "invoice_code": null}}
+{"input": "BUI HUU QUANG TIEN TRO T1", "output": {"tenant_name": "BUI HUU QUANG", "room_code": null, "month": 1, "year": null, "invoice_code": null}}
+{"input": "CK TIEN PHONG 303 THANG 8 NAM 2025 NGUYEN THI QUANG", "output": {"tenant_name": "NGUYEN THI QUANG", "room_code": "303", "month": 8, "year": 2025, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 7 BUI THANH PHUONG", "output": {"tenant_name": "BUI THANH PHUONG", "room_code": null, "month": 7, "year": null, "invoice_code": null}}
+{"input": "NGO DUC ANH CK TIEN PHONG 302 T5/2026", "output": {"tenant_name": "NGO DUC ANH", "room_code": "302", "month": 5, "year": 2026, "invoice_code": null}}
+{"input": "TRAN XUAN PHUONG TIEN TRO T12", "output": {"tenant_name": "TRAN XUAN PHUONG", "room_code": null, "month": 12, "year": null, "invoice_code": null}}
+{"input": "LE DUC MINH TT PHONG 303 KY 2/2026", "output": {"tenant_name": "LE DUC MINH", "room_code": "303", "month": 2, "year": 2026, "invoice_code": null}}
+{"input": "DO MINH DUC TT PHONG 303 T11", "output": {"tenant_name": "DO MINH DUC", "room_code": "303", "month": 11, "year": null, "invoice_code": null}}
+{"input": "VU HOANG DUC CK TIEN PHONG 402", "output": {"tenant_name": "VU HOANG DUC", "room_code": "402", "month": null, "year": null, "invoice_code": null}}
+{"input": "DINH DINH THANH TIEN TRO T1", "output": {"tenant_name": "DINH DINH THANH", "room_code": null, "month": 1, "year": null, "invoice_code": null}}
+{"input": "DANG DINH PHUONG THANH TOAN TIEN NHA P301 T9/2026", "output": {"tenant_name": "DANG DINH PHUONG", "room_code": "301", "month": 9, "year": 2026, "invoice_code": null}}
+{"input": "TIEN PHONG 102 THANG 11/2026 NGO DINH THI", "output": {"tenant_name": "NGO DINH THI", "room_code": "102", "month": 11, "year": 2026, "invoice_code": null}}
+{"input": "VU VAN CK TIEN PHONG 301 T11/2026", "output": {"tenant_name": "VU VAN", "room_code": "301", "month": 11, "year": 2026, "invoice_code": null}}
+{"input": "DANG MINH NGOC THANH TOAN HD-2510-093", "output": {"tenant_name": "DANG MINH NGOC", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2510-093"}}
+{"input": "CK TIEN NHA NGUYEN THANH HOANG", "output": {"tenant_name": "NGUYEN THANH HOANG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "CK PHAM DINH MINH HD-2507-034", "output": {"tenant_name": "PHAM DINH MINH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2507-034"}}
+{"input": "DO DINH HOANG THANH TOAN HD-2604-070", "output": {"tenant_name": "DO DINH HOANG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2604-070"}}
+{"input": "NGUYEN PHUONG CK TIEN PHONG 101 T6/2025", "output": {"tenant_name": "NGUYEN PHUONG", "room_code": "101", "month": 6, "year": 2025, "invoice_code": null}}
+{"input": "LE DUC DUC CK TIEN PHONG", "output": {"tenant_name": "LE DUC DUC", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG VU MINH DUC", "output": {"tenant_name": "VU MINH DUC", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "DANG QUANG TT PHONG 102 KY 3/2025", "output": {"tenant_name": "DANG QUANG", "room_code": "102", "month": 3, "year": 2025, "invoice_code": null}}
+{"input": "NGUYEN MINH MINH CHUYEN KHOAN TIEN NHA P401", "output": {"tenant_name": "NGUYEN MINH MINH", "room_code": "401", "month": null, "year": null, "invoice_code": null}}
+{"input": "NGUYEN HOANG ANH CHUYEN KHOAN TIEN NHA P301", "output": {"tenant_name": "NGUYEN HOANG ANH", "room_code": "301", "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG 301 THANG 11/2025 DANG VAN", "output": {"tenant_name": "DANG VAN", "room_code": "301", "month": 11, "year": 2025, "invoice_code": null}}
+{"input": "THANH TOAN HOA DON HD-2512-033 TRAN THI PHUONG", "output": {"tenant_name": "TRAN THI PHUONG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2512-033"}}
+{"input": "BUI DINH PHUONG TIEN TRO T12", "output": {"tenant_name": "BUI DINH PHUONG", "room_code": null, "month": 12, "year": null, "invoice_code": null}}
+{"input": "BUI QUOC ANH 0938044635 CK P305 T11", "output": {"tenant_name": "BUI QUOC ANH", "room_code": "305", "month": 11, "year": null, "invoice_code": null}}
+{"input": "LE HUU QUANG CHUYEN KHOAN", "output": {"tenant_name": "LE HUU QUANG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "BUI QUOC VAN TT PHONG 501 KY 3/2026", "output": {"tenant_name": "BUI QUOC VAN", "room_code": "501", "month": 3, "year": 2026, "invoice_code": null}}
+{"input": "TIEN PHONG PHAM VAN DUC", "output": {"tenant_name": "PHAM VAN DUC", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "DO MINH MINH CK P202 THANG11/2025", "output": {"tenant_name": "DO MINH MINH", "room_code": "202", "month": 11, "year": 2025, "invoice_code": null}}
+{"input": "HOANG THI ANH TIEN TRO T5", "output": {"tenant_name": "HOANG THI ANH", "room_code": null, "month": 5, "year": null, "invoice_code": null}}
+{"input": "CK TIEN PHONG 303 VO DINH HOANG", "output": {"tenant_name": "VO DINH HOANG", "room_code": "303", "month": null, "year": null, "invoice_code": null}}
+{"input": "CK TIEN PHONG 102 THANG 9 NAM 2026 BUI VAN THI", "output": {"tenant_name": "BUI VAN THI", "room_code": "102", "month": 9, "year": 2026, "invoice_code": null}}
+{"input": "LE PHUONG CK P401 THANG5/2026", "output": {"tenant_name": "LE PHUONG", "room_code": "401", "month": 5, "year": 2026, "invoice_code": null}}
+{"input": "HOANG XUAN NGOC TT PHONG 101 T9", "output": {"tenant_name": "HOANG XUAN NGOC", "room_code": "101", "month": 9, "year": null, "invoice_code": null}}
+{"input": "DINH THANH HOANG THANH TOAN TIEN NHA P302 T9/2025", "output": {"tenant_name": "DINH THANH HOANG", "room_code": "302", "month": 9, "year": 2025, "invoice_code": null}}
+{"input": "THANH TOAN HOA DON HD-2502-043 TRAN THANH", "output": {"tenant_name": "TRAN THANH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2502-043"}}
+{"input": "VU MINH TT PHONG 401 KY 9/2026", "output": {"tenant_name": "VU MINH", "room_code": "401", "month": 9, "year": 2026, "invoice_code": null}}
+{"input": "DANG NGOC CK TIEN PHONG 103 T7/2026", "output": {"tenant_name": "DANG NGOC", "room_code": "103", "month": 7, "year": 2026, "invoice_code": null}}
+{"input": "IBFT VO MINH DUC TIEN PHONG 501 T4/2026", "output": {"tenant_name": "VO MINH DUC", "room_code": "501", "month": 4, "year": 2026, "invoice_code": null}}
+{"input": "LE DINH ANH THANH TOAN HD-2505-084", "output": {"tenant_name": "LE DINH ANH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2505-084"}}
+{"input": "PHAM ANH TT PHONG 402 T4", "output": {"tenant_name": "PHAM ANH", "room_code": "402", "month": 4, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG LE XUAN MINH", "output": {"tenant_name": "LE XUAN MINH", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "VU MINH VAN TIEN TRO PHONG 203 T2 2026", "output": {"tenant_name": "VU MINH VAN", "room_code": "203", "month": 2, "year": 2026, "invoice_code": null}}
+{"input": "VU THANH DUC CK P303 THANG1/2026", "output": {"tenant_name": "VU THANH DUC", "room_code": "303", "month": 1, "year": 2026, "invoice_code": null}}
+{"input": "NGO DINH MINH CK HD-2603-071 PHONG 402", "output": {"tenant_name": "NGO DINH MINH", "room_code": "402", "month": null, "year": null, "invoice_code": "HD-2603-071"}}
+{"input": "IBFT HOANG DINH PHUONG TIEN PHONG 103 T6/2026", "output": {"tenant_name": "HOANG DINH PHUONG", "room_code": "103", "month": 6, "year": 2026, "invoice_code": null}}
+{"input": "CK TIEN NHA LE XUAN NGOC", "output": {"tenant_name": "LE XUAN NGOC", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG 401 THANG 3/2025 DINH THANH DUC", "output": {"tenant_name": "DINH THANH DUC", "room_code": "401", "month": 3, "year": 2025, "invoice_code": null}}
+{"input": "DO NGOC DUC CK HD-2503-084 PHONG 303", "output": {"tenant_name": "DO NGOC DUC", "room_code": "303", "month": null, "year": null, "invoice_code": "HD-2503-084"}}
+{"input": "NGO QUANG CHUYEN KHOAN TIEN PHONG 501 THANG 9/2026", "output": {"tenant_name": "NGO QUANG", "room_code": "501", "month": 9, "year": 2026, "invoice_code": null}}
+{"input": "CK TIEN TRO DINH HUU QUANG", "output": {"tenant_name": "DINH HUU QUANG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "CK DO VAN DUC HD-2511-032", "output": {"tenant_name": "DO VAN DUC", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2511-032"}}
+{"input": "LUONG THANH ANH CK HD-2601-025 PHONG 201", "output": {"tenant_name": "LUONG THANH ANH", "room_code": "201", "month": null, "year": null, "invoice_code": "HD-2601-025"}}
+{"input": "DO DUC VAN TT PHONG 103 T5", "output": {"tenant_name": "DO DUC VAN", "room_code": "103", "month": 5, "year": null, "invoice_code": null}}
+{"input": "TRAN HUU QUANG CK TIEN PHONG", "output": {"tenant_name": "TRAN HUU QUANG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "VU THI MINH TIEN TRO PHONG 401 T5 2025", "output": {"tenant_name": "VU THI MINH", "room_code": "401", "month": 5, "year": 2025, "invoice_code": null}}
+{"input": "TIEN PHONG 103 THANG 12/2026 HOANG NGOC HOANG", "output": {"tenant_name": "HOANG NGOC HOANG", "room_code": "103", "month": 12, "year": 2026, "invoice_code": null}}
+{"input": "CK TIEN PHONG 303 DO THI VAN", "output": {"tenant_name": "DO THI VAN", "room_code": "303", "month": null, "year": null, "invoice_code": null}}
+{"input": "VO HUU QUANG CK P303 THANG11/2026", "output": {"tenant_name": "VO HUU QUANG", "room_code": "303", "month": 11, "year": 2026, "invoice_code": null}}
+{"input": "DANG DINH QUANG CK TIEN PHONG", "output": {"tenant_name": "DANG DINH QUANG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "DO QUOC THI CK P102", "output": {"tenant_name": "DO QUOC THI", "room_code": "102", "month": null, "year": null, "invoice_code": null}}
+{"input": "TRAN THI THANH TOAN TIEN NHA P301 T1/2026", "output": {"tenant_name": "TRAN THI", "room_code": "301", "month": 1, "year": 2026, "invoice_code": null}}
+{"input": "NGO XUAN QUANG TT HD-2509-002 P103", "output": {"tenant_name": "NGO XUAN QUANG", "room_code": "103", "month": null, "year": null, "invoice_code": "HD-2509-002"}}
+{"input": "CK TIEN TRO LE DUC THANH", "output": {"tenant_name": "LE DUC THANH", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "CK DO DINH HOANG HD-2502-037", "output": {"tenant_name": "DO DINH HOANG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2502-037"}}
+{"input": "VU THI PHUONG CK P302", "output": {"tenant_name": "VU THI PHUONG", "room_code": "302", "month": null, "year": null, "invoice_code": null}}
+{"input": "CK NGUYEN THANH MINH HD-2506-099", "output": {"tenant_name": "NGUYEN THANH MINH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2506-099"}}
+{"input": "FT25759274 HOANG HOANG QUANG CK TIEN PHONG 401", "output": {"tenant_name": "HOANG HOANG QUANG", "room_code": "401", "month": null, "year": null, "invoice_code": null}}
+{"input": "BUI VAN PHUONG TT PHONG 302 T7", "output": {"tenant_name": "BUI VAN PHUONG", "room_code": "302", "month": 7, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG VU DINH NGOC", "output": {"tenant_name": "VU DINH NGOC", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "PHAM VAN PHUONG TIEN TRO PHONG 201 T11 2025", "output": {"tenant_name": "PHAM VAN PHUONG", "room_code": "201", "month": 11, "year": 2025, "invoice_code": null}}
+{"input": "VU DUC DUC TT PHONG 303 T5", "output": {"tenant_name": "VU DUC DUC", "room_code": "303", "month": 5, "year": null, "invoice_code": null}}
+{"input": "TRAN MINH THANH TIEN TRO PHONG 201 T1 2025", "output": {"tenant_name": "TRAN MINH THANH", "room_code": "201", "month": 1, "year": 2025, "invoice_code": null}}
+{"input": "DANG MINH QUANG TT HD-2508-089 P202", "output": {"tenant_name": "DANG MINH QUANG", "room_code": "202", "month": null, "year": null, "invoice_code": "HD-2508-089"}}
+{"input": "NGO THANH PHUONG CHUYEN KHOAN TIEN NHA P302", "output": {"tenant_name": "NGO THANH PHUONG", "room_code": "302", "month": null, "year": null, "invoice_code": null}}
+{"input": "PHAM THI THI CHUYEN KHOAN TIEN NHA P103", "output": {"tenant_name": "PHAM THI THI", "room_code": "103", "month": null, "year": null, "invoice_code": null}}
+{"input": "PHAM VAN HOANG TIEN TRO T5", "output": {"tenant_name": "PHAM VAN HOANG", "room_code": null, "month": 5, "year": null, "invoice_code": null}}
+{"input": "DO DINH HOANG TT PHONG 103 KY 11/2025", "output": {"tenant_name": "DO DINH HOANG", "room_code": "103", "month": 11, "year": 2025, "invoice_code": null}}
+{"input": "THANH TOAN HOA DON HD-2509-009 DINH DUC THANH", "output": {"tenant_name": "DINH DUC THANH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2509-009"}}
+{"input": "DANG HUU THI TT HD-2511-012 P101", "output": {"tenant_name": "DANG HUU THI", "room_code": "101", "month": null, "year": null, "invoice_code": "HD-2511-012"}}
+{"input": "NGO THANH QUANG CK P301 THANG6/2026", "output": {"tenant_name": "NGO THANH QUANG", "room_code": "301", "month": 6, "year": 2026, "invoice_code": null}}
+{"input": "LUONG NGOC DUC 0980961645 CK P203 T7", "output": {"tenant_name": "LUONG NGOC DUC", "room_code": "203", "month": 7, "year": null, "invoice_code": null}}
+{"input": "DANG NGOC THI CK TIEN PHONG 302 T12/2025", "output": {"tenant_name": "DANG NGOC THI", "room_code": "302", "month": 12, "year": 2025, "invoice_code": null}}
+{"input": "TIEN PHONG 103 THANG 10/2025 PHAM DUC THI", "output": {"tenant_name": "PHAM DUC THI", "room_code": "103", "month": 10, "year": 2025, "invoice_code": null}}
+{"input": "VU DINH PHUONG CK TIEN PHONG 203", "output": {"tenant_name": "VU DINH PHUONG", "room_code": "203", "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 4 BUI THI THI", "output": {"tenant_name": "BUI THI THI", "room_code": null, "month": 4, "year": null, "invoice_code": null}}
+{"input": "DO THANH VAN TT PHONG 102 KY 4/2025", "output": {"tenant_name": "DO THANH VAN", "room_code": "102", "month": 4, "year": 2025, "invoice_code": null}}
+{"input": "BUI THI THI CK HD-2608-066 PHONG 302", "output": {"tenant_name": "BUI THI THI", "room_code": "302", "month": null, "year": null, "invoice_code": "HD-2608-066"}}
+{"input": "CK TIEN PHONG 305 THANG 10 NAM 2025 DO HOANG THANH", "output": {"tenant_name": "DO HOANG THANH", "room_code": "305", "month": 10, "year": 2025, "invoice_code": null}}
+{"input": "BUI THI QUANG CHUYEN KHOAN TIEN PHONG 202 THANG 12/2026", "output": {"tenant_name": "BUI THI QUANG", "room_code": "202", "month": 12, "year": 2026, "invoice_code": null}}
+{"input": "CK TIEN PHONG 302 DINH DUC DUC", "output": {"tenant_name": "DINH DUC DUC", "room_code": "302", "month": null, "year": null, "invoice_code": null}}
+{"input": "NGO THI THANH CK HD-2611-063 PHONG 302", "output": {"tenant_name": "NGO THI THANH", "room_code": "302", "month": null, "year": null, "invoice_code": "HD-2611-063"}}
+{"input": "TIEN PHONG 101 THANG 4/2026 DINH ANH", "output": {"tenant_name": "DINH ANH", "room_code": "101", "month": 4, "year": 2026, "invoice_code": null}}
+{"input": "HOANG THANH ANH THANH TOAN TIEN NHA P203 T12/2026", "output": {"tenant_name": "HOANG THANH ANH", "room_code": "203", "month": 12, "year": 2026, "invoice_code": null}}
+{"input": "BUI THI THI THANH TOAN TIEN NHA P202 T10/2025", "output": {"tenant_name": "BUI THI THI", "room_code": "202", "month": 10, "year": 2025, "invoice_code": null}}
+{"input": "DANG NGOC HOANG 0965901885 CK P301 T6", "output": {"tenant_name": "DANG NGOC HOANG", "room_code": "301", "month": 6, "year": null, "invoice_code": null}}
+{"input": "NGO THI MINH CK P401 THANG11/2025", "output": {"tenant_name": "NGO THI MINH", "room_code": "401", "month": 11, "year": 2025, "invoice_code": null}}
+{"input": "VU HOANG CHUYEN KHOAN TIEN NHA P501", "output": {"tenant_name": "VU HOANG", "room_code": "501", "month": null, "year": null, "invoice_code": null}}
+{"input": "IBFT HOANG VAN THI TIEN PHONG 401 T5/2025", "output": {"tenant_name": "HOANG VAN THI", "room_code": "401", "month": 5, "year": 2025, "invoice_code": null}}
+{"input": "DO NGOC HOANG TIEN TRO T2", "output": {"tenant_name": "DO NGOC HOANG", "room_code": null, "month": 2, "year": null, "invoice_code": null}}
+{"input": "CK TIEN NHA HOANG XUAN THI", "output": {"tenant_name": "HOANG XUAN THI", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "THANH TOAN HOA DON HD-2511-069 DINH XUAN THI", "output": {"tenant_name": "DINH XUAN THI", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2511-069"}}
+{"input": "DANG MINH THI TIEN TRO T10", "output": {"tenant_name": "DANG MINH THI", "room_code": null, "month": 10, "year": null, "invoice_code": null}}
+{"input": "NGUYEN MINH QUANG TIEN TRO T1", "output": {"tenant_name": "NGUYEN MINH QUANG", "room_code": null, "month": 1, "year": null, "invoice_code": null}}
+{"input": "PHAM HUU QUANG CK TIEN PHONG 302", "output": {"tenant_name": "PHAM HUU QUANG", "room_code": "302", "month": null, "year": null, "invoice_code": null}}
+{"input": "NGUYEN HOANG DUC CHUYEN KHOAN TIEN PHONG 103 THANG 12/2026", "output": {"tenant_name": "NGUYEN HOANG DUC", "room_code": "103", "month": 12, "year": 2026, "invoice_code": null}}
+{"input": "NGUYEN MINH MINH THANH TOAN HD-2503-094", "output": {"tenant_name": "NGUYEN MINH MINH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2503-094"}}
+{"input": "DO DINH VAN CK P102 THANG11/2026", "output": {"tenant_name": "DO DINH VAN", "room_code": "102", "month": 11, "year": 2026, "invoice_code": null}}
+{"input": "DO XUAN QUANG TT PHONG 301 KY 9/2026", "output": {"tenant_name": "DO XUAN QUANG", "room_code": "301", "month": 9, "year": 2026, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 1 PHAM DINH HOANG", "output": {"tenant_name": "PHAM DINH HOANG", "room_code": null, "month": 1, "year": null, "invoice_code": null}}
+{"input": "VU QUOC VAN CHUYEN KHOAN TIEN NHA P202", "output": {"tenant_name": "VU QUOC VAN", "room_code": "202", "month": null, "year": null, "invoice_code": null}}
+{"input": "HOANG THANH NGOC THANH TOAN TIEN NHA P102 T1/2026", "output": {"tenant_name": "HOANG THANH NGOC", "room_code": "102", "month": 1, "year": 2026, "invoice_code": null}}
+{"input": "BUI HUU MINH TT PHONG 501 KY 6/2026", "output": {"tenant_name": "BUI HUU MINH", "room_code": "501", "month": 6, "year": 2026, "invoice_code": null}}
+{"input": "PHAM MINH CK P305", "output": {"tenant_name": "PHAM MINH", "room_code": "305", "month": null, "year": null, "invoice_code": null}}
+{"input": "VO NGOC DUC 0991858555 CK P303 T1", "output": {"tenant_name": "VO NGOC DUC", "room_code": "303", "month": 1, "year": null, "invoice_code": null}}
+{"input": "LE THANH THI CK TIEN PHONG", "output": {"tenant_name": "LE THANH THI", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "CK TIEN NHA DANG NGOC ANH", "output": {"tenant_name": "DANG NGOC ANH", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG DO DUC MINH", "output": {"tenant_name": "DO DUC MINH", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG 201 THANG 10/2026 VU HOANG HOANG", "output": {"tenant_name": "VU HOANG HOANG", "room_code": "201", "month": 10, "year": 2026, "invoice_code": null}}
+{"input": "BUI HUU NGOC CK P402", "output": {"tenant_name": "BUI HUU NGOC", "room_code": "402", "month": null, "year": null, "invoice_code": null}}
+{"input": "VU MINH HOANG TT PHONG 303 KY 8/2025", "output": {"tenant_name": "VU MINH HOANG", "room_code": "303", "month": 8, "year": 2025, "invoice_code": null}}
+{"input": "VO DUC QUANG CK P203", "output": {"tenant_name": "VO DUC QUANG", "room_code": "203", "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 4 NGUYEN XUAN MINH", "output": {"tenant_name": "NGUYEN XUAN MINH", "room_code": null, "month": 4, "year": null, "invoice_code": null}}
+{"input": "BUI THI PHUONG CHUYEN KHOAN", "output": {"tenant_name": "BUI THI PHUONG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "BUI MINH THI TIEN TRO T3", "output": {"tenant_name": "BUI MINH THI", "room_code": null, "month": 3, "year": null, "invoice_code": null}}
+{"input": "PHAM HUU PHUONG CK TIEN PHONG 301", "output": {"tenant_name": "PHAM HUU PHUONG", "room_code": "301", "month": null, "year": null, "invoice_code": null}}
+{"input": "PHAM THI CHUYEN KHOAN TIEN PHONG 101 THANG 11/2026", "output": {"tenant_name": "PHAM THI", "room_code": "101", "month": 11, "year": 2026, "invoice_code": null}}
+{"input": "CK TIEN TRO DO HUU VAN", "output": {"tenant_name": "DO HUU VAN", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "DANG HUU THI CHUYEN KHOAN TIEN PHONG 103 THANG 11/2025", "output": {"tenant_name": "DANG HUU THI", "room_code": "103", "month": 11, "year": 2025, "invoice_code": null}}
+{"input": "TRAN THANH PHUONG CHUYEN KHOAN TIEN PHONG 103 THANG 7/2025", "output": {"tenant_name": "TRAN THANH PHUONG", "room_code": "103", "month": 7, "year": 2025, "invoice_code": null}}
+{"input": "TRAN MINH THI THANH TOAN TIEN NHA P103 T3/2025", "output": {"tenant_name": "TRAN MINH THI", "room_code": "103", "month": 3, "year": 2025, "invoice_code": null}}
+{"input": "CK TIEN PHONG 501 DO DUC MINH", "output": {"tenant_name": "DO DUC MINH", "room_code": "501", "month": null, "year": null, "invoice_code": null}}
+{"input": "BUI HUU PHUONG CHUYEN KHOAN TIEN NHA P101", "output": {"tenant_name": "BUI HUU PHUONG", "room_code": "101", "month": null, "year": null, "invoice_code": null}}
+{"input": "DINH XUAN PHUONG CHUYEN KHOAN TIEN NHA P301", "output": {"tenant_name": "DINH XUAN PHUONG", "room_code": "301", "month": null, "year": null, "invoice_code": null}}
+{"input": "HOANG DUC VAN CHUYEN KHOAN TIEN PHONG 102 THANG 3/2025", "output": {"tenant_name": "HOANG DUC VAN", "room_code": "102", "month": 3, "year": 2025, "invoice_code": null}}
+{"input": "NGUYEN XUAN THANH MBVCB CK P501 THANG 8", "output": {"tenant_name": "NGUYEN XUAN THANH", "room_code": "501", "month": 8, "year": null, "invoice_code": null}}
+{"input": "VU THANH THI CK HD-2501-050 PHONG 402", "output": {"tenant_name": "VU THANH THI", "room_code": "402", "month": null, "year": null, "invoice_code": "HD-2501-050"}}
+{"input": "NGO HUU HOANG TT PHONG 501 T5", "output": {"tenant_name": "NGO HUU HOANG", "room_code": "501", "month": 5, "year": null, "invoice_code": null}}
+{"input": "CK TIEN NHA BUI HUU THI", "output": {"tenant_name": "BUI HUU THI", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "THANH TOAN HOA DON HD-2612-062 HOANG NGOC HOANG", "output": {"tenant_name": "HOANG NGOC HOANG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2612-062"}}
+{"input": "LUONG HOANG ANH CK TIEN PHONG 401", "output": {"tenant_name": "LUONG HOANG ANH", "room_code": "401", "month": null, "year": null, "invoice_code": null}}
+{"input": "NGO HOANG HOANG 0966795767 CK P103 T2", "output": {"tenant_name": "NGO HOANG HOANG", "room_code": "103", "month": 2, "year": null, "invoice_code": null}}
+{"input": "LE HUU NGOC TIEN TRO T7", "output": {"tenant_name": "LE HUU NGOC", "room_code": null, "month": 7, "year": null, "invoice_code": null}}
+{"input": "TRAN MINH QUANG CK TIEN PHONG 203 T11/2025 BLOCIFY", "output": {"tenant_name": "TRAN MINH QUANG", "room_code": "203", "month": 11, "year": 2025, "invoice_code": null}}
+{"input": "TIEN PHONG TRAN QUANG", "output": {"tenant_name": "TRAN QUANG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "DINH NGOC DUC CK P103 THANG8/2025", "output": {"tenant_name": "DINH NGOC DUC", "room_code": "103", "month": 8, "year": 2025, "invoice_code": null}}
+{"input": "NGO DINH NGOC TT HD-2609-055 P302", "output": {"tenant_name": "NGO DINH NGOC", "room_code": "302", "month": null, "year": null, "invoice_code": "HD-2609-055"}}
+{"input": "DINH HOANG DUC TT PHONG 302 KY 10/2025", "output": {"tenant_name": "DINH HOANG DUC", "room_code": "302", "month": 10, "year": 2025, "invoice_code": null}}
+{"input": "PHAM NGOC DUC CK TIEN PHONG", "output": {"tenant_name": "PHAM NGOC DUC", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "CK TIEN PHONG 101 THANG 8 NAM 2026 NGO THI HOANG", "output": {"tenant_name": "NGO THI HOANG", "room_code": "101", "month": 8, "year": 2026, "invoice_code": null}}
+{"input": "LE XUAN NGOC TIEN TRO T9", "output": {"tenant_name": "LE XUAN NGOC", "room_code": null, "month": 9, "year": null, "invoice_code": null}}
+{"input": "HOANG THI CHUYEN KHOAN TIEN NHA P202", "output": {"tenant_name": "HOANG THI", "room_code": "202", "month": null, "year": null, "invoice_code": null}}
+{"input": "TRAN DINH THI TT PHONG 103 KY 8/2025", "output": {"tenant_name": "TRAN DINH THI", "room_code": "103", "month": 8, "year": 2025, "invoice_code": null}}
+{"input": "THANH TOAN HOA DON HD-2606-071 TRAN DUC PHUONG", "output": {"tenant_name": "TRAN DUC PHUONG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2606-071"}}
+{"input": "HOANG DUC THI CHUYEN KHOAN TIEN NHA P102", "output": {"tenant_name": "HOANG DUC THI", "room_code": "102", "month": null, "year": null, "invoice_code": null}}
+{"input": "NGUYEN MINH PHUONG MBVCB CK P302 THANG 6", "output": {"tenant_name": "NGUYEN MINH PHUONG", "room_code": "302", "month": 6, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 10 NGUYEN THANH QUANG", "output": {"tenant_name": "NGUYEN THANH QUANG", "room_code": null, "month": 10, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG VO QUOC NGOC", "output": {"tenant_name": "VO QUOC NGOC", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "DANG HOANG CK P102", "output": {"tenant_name": "DANG HOANG", "room_code": "102", "month": null, "year": null, "invoice_code": null}}
+{"input": "DO ANH TT PHONG 101 T5", "output": {"tenant_name": "DO ANH", "room_code": "101", "month": 5, "year": null, "invoice_code": null}}
+{"input": "BUI VAN THANH TIEN TRO PHONG 202 T4 2026", "output": {"tenant_name": "BUI VAN THANH", "room_code": "202", "month": 4, "year": 2026, "invoice_code": null}}
+{"input": "LE HUU THANH TT PHONG 203 T2", "output": {"tenant_name": "LE HUU THANH", "room_code": "203", "month": 2, "year": null, "invoice_code": null}}
+{"input": "DANG HUU DUC CHUYEN KHOAN TIEN NHA P102", "output": {"tenant_name": "DANG HUU DUC", "room_code": "102", "month": null, "year": null, "invoice_code": null}}
+{"input": "IBFT LE HUU HOANG TIEN PHONG 202 T3/2025", "output": {"tenant_name": "LE HUU HOANG", "room_code": "202", "month": 3, "year": 2025, "invoice_code": null}}
+{"input": "LUONG DINH VAN CK P501 THANG10/2026", "output": {"tenant_name": "LUONG DINH VAN", "room_code": "501", "month": 10, "year": 2026, "invoice_code": null}}
+{"input": "PHAM HOANG HOANG CK TIEN PHONG", "output": {"tenant_name": "PHAM HOANG HOANG", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "TRAN MINH NGOC CHUYEN KHOAN TIEN PHONG 301 THANG 10/2026", "output": {"tenant_name": "TRAN MINH NGOC", "room_code": "301", "month": 10, "year": 2026, "invoice_code": null}}
+{"input": "TRAN XUAN ANH CK P401", "output": {"tenant_name": "TRAN XUAN ANH", "room_code": "401", "month": null, "year": null, "invoice_code": null}}
+{"input": "DO NGOC MINH CK TIEN PHONG", "output": {"tenant_name": "DO NGOC MINH", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "DO VAN NGOC TT PHONG 102 KY 6/2025", "output": {"tenant_name": "DO VAN NGOC", "room_code": "102", "month": 6, "year": 2025, "invoice_code": null}}
+{"input": "DO THI VAN TIEN TRO PHONG 303 T9 2025", "output": {"tenant_name": "DO THI VAN", "room_code": "303", "month": 9, "year": 2025, "invoice_code": null}}
+{"input": "DANG DUC PHUONG THANH TOAN HD-2503-099", "output": {"tenant_name": "DANG DUC PHUONG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2503-099"}}
+{"input": "HOANG DUC THI TIEN TRO T12", "output": {"tenant_name": "HOANG DUC THI", "room_code": null, "month": 12, "year": null, "invoice_code": null}}
+{"input": "IBFT DANG HOANG NGOC TIEN PHONG 103 T3/2026", "output": {"tenant_name": "DANG HOANG NGOC", "room_code": "103", "month": 3, "year": 2026, "invoice_code": null}}
+{"input": "FT67887757 NGUYEN HUU PHUONG CK TIEN PHONG 401", "output": {"tenant_name": "NGUYEN HUU PHUONG", "room_code": "401", "month": null, "year": null, "invoice_code": null}}
+{"input": "DANG VAN THANH CK TIEN PHONG 401 T4/2026", "output": {"tenant_name": "DANG VAN THANH", "room_code": "401", "month": 4, "year": 2026, "invoice_code": null}}
+{"input": "THANH TOAN HOA DON HD-2507-037 LUONG HUU THI", "output": {"tenant_name": "LUONG HUU THI", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2507-037"}}
+{"input": "NGUYEN DINH NGOC CHUYEN KHOAN TIEN PHONG 302 THANG 1/2025", "output": {"tenant_name": "NGUYEN DINH NGOC", "room_code": "302", "month": 1, "year": 2025, "invoice_code": null}}
+{"input": "TIEN PHONG 102 THANG 8/2025 PHAM XUAN ANH", "output": {"tenant_name": "PHAM XUAN ANH", "room_code": "102", "month": 8, "year": 2025, "invoice_code": null}}
+{"input": "VO XUAN NGOC TIEN TRO T1", "output": {"tenant_name": "VO XUAN NGOC", "room_code": null, "month": 1, "year": null, "invoice_code": null}}
+{"input": "PHAM XUAN ANH CK TIEN PHONG 103 T7/2026", "output": {"tenant_name": "PHAM XUAN ANH", "room_code": "103", "month": 7, "year": 2026, "invoice_code": null}}
+{"input": "CK TIEN PHONG 301 THANG 4 NAM 2026 TRAN QUANG", "output": {"tenant_name": "TRAN QUANG", "room_code": "301", "month": 4, "year": 2026, "invoice_code": null}}
+{"input": "VU THANH THANH MBVCB CK P202 THANG 8", "output": {"tenant_name": "VU THANH THANH", "room_code": "202", "month": 8, "year": null, "invoice_code": null}}
+{"input": "CK TIEN PHONG 201 NGO NGOC THI", "output": {"tenant_name": "NGO NGOC THI", "room_code": "201", "month": null, "year": null, "invoice_code": null}}
+{"input": "TRAN THI THANH CK TIEN PHONG 202 T3/2026", "output": {"tenant_name": "TRAN THI THANH", "room_code": "202", "month": 3, "year": 2026, "invoice_code": null}}
+{"input": "NGO THI HOANG CHUYEN KHOAN TIEN NHA P501", "output": {"tenant_name": "NGO THI HOANG", "room_code": "501", "month": null, "year": null, "invoice_code": null}}
+{"input": "VU VAN THANH TOAN TIEN NHA P305 T5/2025", "output": {"tenant_name": "VU VAN", "room_code": "305", "month": 5, "year": 2025, "invoice_code": null}}
+{"input": "PHAM HOANG THI 0933322272 CK P101 T5", "output": {"tenant_name": "PHAM HOANG THI", "room_code": "101", "month": 5, "year": null, "invoice_code": null}}
+{"input": "FT37154689 NGUYEN THI HOANG CK TIEN PHONG 302", "output": {"tenant_name": "NGUYEN THI HOANG", "room_code": "302", "month": null, "year": null, "invoice_code": null}}
+{"input": "BUI XUAN NGOC TT HD-2607-076 P305", "output": {"tenant_name": "BUI XUAN NGOC", "room_code": "305", "month": null, "year": null, "invoice_code": "HD-2607-076"}}
+{"input": "DO XUAN MINH CK TIEN PHONG", "output": {"tenant_name": "DO XUAN MINH", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "NGO QUOC HOANG CK P103 THANG5/2026", "output": {"tenant_name": "NGO QUOC HOANG", "room_code": "103", "month": 5, "year": 2026, "invoice_code": null}}
+{"input": "PHAM DUC QUANG THANH TOAN HD-2604-082", "output": {"tenant_name": "PHAM DUC QUANG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2604-082"}}
+{"input": "HOANG THI THANH CK TIEN PHONG 201", "output": {"tenant_name": "HOANG THI THANH", "room_code": "201", "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG 303 THANG 6/2026 PHAM VAN MINH", "output": {"tenant_name": "PHAM VAN MINH", "room_code": "303", "month": 6, "year": 2026, "invoice_code": null}}
+{"input": "IBFT NGO HUU ANH TIEN PHONG 201 T3/2026", "output": {"tenant_name": "NGO HUU ANH", "room_code": "201", "month": 3, "year": 2026, "invoice_code": null}}
+{"input": "PHAM DUC NGOC CK TIEN PHONG 303", "output": {"tenant_name": "PHAM DUC NGOC", "room_code": "303", "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG 301 THANG 12/2026 DO QUOC ANH", "output": {"tenant_name": "DO QUOC ANH", "room_code": "301", "month": 12, "year": 2026, "invoice_code": null}}
+{"input": "HOANG VAN PHUONG CHUYEN KHOAN TIEN NHA P103", "output": {"tenant_name": "HOANG VAN PHUONG", "room_code": "103", "month": null, "year": null, "invoice_code": null}}
+{"input": "TRAN NGOC THI CK P302 THANG10/2025", "output": {"tenant_name": "TRAN NGOC THI", "room_code": "302", "month": 10, "year": 2025, "invoice_code": null}}
+{"input": "THANH TOAN HOA DON HD-2606-048 BUI DINH DUC", "output": {"tenant_name": "BUI DINH DUC", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2606-048"}}
+{"input": "PHAM VAN VAN CK P401 THANG12/2025", "output": {"tenant_name": "PHAM VAN VAN", "room_code": "401", "month": 12, "year": 2025, "invoice_code": null}}
+{"input": "BUI NGOC QUANG CK P401 THANG3/2026", "output": {"tenant_name": "BUI NGOC QUANG", "room_code": "401", "month": 3, "year": 2026, "invoice_code": null}}
+{"input": "DANG VAN HOANG TIEN TRO T8", "output": {"tenant_name": "DANG VAN HOANG", "room_code": null, "month": 8, "year": null, "invoice_code": null}}
+{"input": "NGO THANH DUC TT HD-2609-008 P301", "output": {"tenant_name": "NGO THANH DUC", "room_code": "301", "month": null, "year": null, "invoice_code": "HD-2609-008"}}
+{"input": "TRAN DUC PHUONG TT PHONG 402 KY 11/2025", "output": {"tenant_name": "TRAN DUC PHUONG", "room_code": "402", "month": 11, "year": 2025, "invoice_code": null}}
+{"input": "PHAM DUC THANH THANH TOAN HD-2505-060", "output": {"tenant_name": "PHAM DUC THANH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2505-060"}}
+{"input": "VO THANH THI TT HD-2610-028 P201", "output": {"tenant_name": "VO THANH THI", "room_code": "201", "month": null, "year": null, "invoice_code": "HD-2610-028"}}
+{"input": "VU HUU THI TT PHONG 202 T11", "output": {"tenant_name": "VU HUU THI", "room_code": "202", "month": 11, "year": null, "invoice_code": null}}
+{"input": "HOANG XUAN QUANG CK HD-2507-041 PHONG 201", "output": {"tenant_name": "HOANG XUAN QUANG", "room_code": "201", "month": null, "year": null, "invoice_code": "HD-2507-041"}}
+{"input": "DANG DINH THANH TIEN TRO PHONG 501 T12 2026", "output": {"tenant_name": "DANG DINH THANH", "room_code": "501", "month": 12, "year": 2026, "invoice_code": null}}
+{"input": "NGUYEN THI MINH TIEN TRO PHONG 401 T8 2025", "output": {"tenant_name": "NGUYEN THI MINH", "room_code": "401", "month": 8, "year": 2025, "invoice_code": null}}
+{"input": "VO DINH PHUONG TIEN TRO PHONG 302 T3 2025", "output": {"tenant_name": "VO DINH PHUONG", "room_code": "302", "month": 3, "year": 2025, "invoice_code": null}}
+{"input": "LUONG QUOC HOANG CHUYEN KHOAN TIEN NHA P103", "output": {"tenant_name": "LUONG QUOC HOANG", "room_code": "103", "month": null, "year": null, "invoice_code": null}}
+{"input": "NGUYEN HOANG QUANG THANH TOAN HD-2501-019", "output": {"tenant_name": "NGUYEN HOANG QUANG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2501-019"}}
+{"input": "THANH TOAN HOA DON HD-2602-078 NGUYEN THI QUANG", "output": {"tenant_name": "NGUYEN THI QUANG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2602-078"}}
+{"input": "BUI XUAN QUANG TT HD-2504-059 P301", "output": {"tenant_name": "BUI XUAN QUANG", "room_code": "301", "month": null, "year": null, "invoice_code": "HD-2504-059"}}
+{"input": "BUI HUU HOANG THANH TOAN TIEN NHA P101 T9/2025", "output": {"tenant_name": "BUI HUU HOANG", "room_code": "101", "month": 9, "year": 2025, "invoice_code": null}}
+{"input": "HOANG HUU DUC CHUYEN KHOAN TIEN PHONG 101 THANG 12/2026", "output": {"tenant_name": "HOANG HUU DUC", "room_code": "101", "month": 12, "year": 2026, "invoice_code": null}}
+{"input": "LE MINH VAN TIEN TRO PHONG 302 T6 2026", "output": {"tenant_name": "LE MINH VAN", "room_code": "302", "month": 6, "year": 2026, "invoice_code": null}}
+{"input": "TIEN PHONG DINH DUC NGOC", "output": {"tenant_name": "DINH DUC NGOC", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 8 VU THANH ANH", "output": {"tenant_name": "VU THANH ANH", "room_code": null, "month": 8, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG 301 THANG 7/2025 VU QUOC DUC", "output": {"tenant_name": "VU QUOC DUC", "room_code": "301", "month": 7, "year": 2025, "invoice_code": null}}
+{"input": "CK TIEN PHONG 303 BUI NGOC THI", "output": {"tenant_name": "BUI NGOC THI", "room_code": "303", "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 2 HOANG QUOC THANH", "output": {"tenant_name": "HOANG QUOC THANH", "room_code": null, "month": 2, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 8 PHAM HUU VAN", "output": {"tenant_name": "PHAM HUU VAN", "room_code": null, "month": 8, "year": null, "invoice_code": null}}
+{"input": "THANH TOAN HOA DON HD-2605-050 BUI THI ANH", "output": {"tenant_name": "BUI THI ANH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2605-050"}}
+{"input": "NGUYEN THI DUC MBVCB CK P101 THANG 5", "output": {"tenant_name": "NGUYEN THI DUC", "room_code": "101", "month": 5, "year": null, "invoice_code": null}}
+{"input": "VU NGOC HOANG TIEN TRO PHONG 301 T10 2026", "output": {"tenant_name": "VU NGOC HOANG", "room_code": "301", "month": 10, "year": 2026, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 4 TRAN DINH THANH", "output": {"tenant_name": "TRAN DINH THANH", "room_code": null, "month": 4, "year": null, "invoice_code": null}}
+{"input": "VO MINH THANH CK HD-2506-058 PHONG 201", "output": {"tenant_name": "VO MINH THANH", "room_code": "201", "month": null, "year": null, "invoice_code": "HD-2506-058"}}
+{"input": "LUONG DINH MINH TIEN TRO PHONG 203 T12 2025", "output": {"tenant_name": "LUONG DINH MINH", "room_code": "203", "month": 12, "year": 2025, "invoice_code": null}}
+{"input": "NGO DUC PHUONG CK TIEN PHONG 305", "output": {"tenant_name": "NGO DUC PHUONG", "room_code": "305", "month": null, "year": null, "invoice_code": null}}
+{"input": "FT51837852 HOANG HUU ANH CK TIEN PHONG 301", "output": {"tenant_name": "HOANG HUU ANH", "room_code": "301", "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 2 BUI DINH THANH", "output": {"tenant_name": "BUI DINH THANH", "room_code": null, "month": 2, "year": null, "invoice_code": null}}
+{"input": "NGO NGOC MINH TT PHONG 202 KY 3/2025", "output": {"tenant_name": "NGO NGOC MINH", "room_code": "202", "month": 3, "year": 2025, "invoice_code": null}}
+{"input": "DINH HUU HOANG TT PHONG 302 KY 11/2026", "output": {"tenant_name": "DINH HUU HOANG", "room_code": "302", "month": 11, "year": 2026, "invoice_code": null}}
+{"input": "HOANG HOANG CHUYEN KHOAN TIEN NHA P501", "output": {"tenant_name": "HOANG HOANG", "room_code": "501", "month": null, "year": null, "invoice_code": null}}
+{"input": "CK TIEN TRO VO HUU VAN", "output": {"tenant_name": "VO HUU VAN", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "TIEN PHONG THANG 9 LUONG DINH HOANG", "output": {"tenant_name": "LUONG DINH HOANG", "room_code": null, "month": 9, "year": null, "invoice_code": null}}
+{"input": "TRAN VAN NGOC CK HD-2506-088 PHONG 303", "output": {"tenant_name": "TRAN VAN NGOC", "room_code": "303", "month": null, "year": null, "invoice_code": "HD-2506-088"}}
+{"input": "DANG XUAN DUC TT PHONG 302 KY 4/2025", "output": {"tenant_name": "DANG XUAN DUC", "room_code": "302", "month": 4, "year": 2025, "invoice_code": null}}
+{"input": "VO XUAN ANH THANH TOAN TIEN NHA P302 T2/2025", "output": {"tenant_name": "VO XUAN ANH", "room_code": "302", "month": 2, "year": 2025, "invoice_code": null}}
+{"input": "CK LUONG QUOC QUANG HD-2511-064", "output": {"tenant_name": "LUONG QUOC QUANG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2511-064"}}
+{"input": "HOANG XUAN PHUONG CHUYEN KHOAN TIEN PHONG 501 THANG 5/2026", "output": {"tenant_name": "HOANG XUAN PHUONG", "room_code": "501", "month": 5, "year": 2026, "invoice_code": null}}
+{"input": "CK DO HOANG THI HD-2608-020", "output": {"tenant_name": "DO HOANG THI", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2608-020"}}
+{"input": "FT33978249 TRAN DUC VAN CK TIEN PHONG 402", "output": {"tenant_name": "TRAN DUC VAN", "room_code": "402", "month": null, "year": null, "invoice_code": null}}
+{"input": "VU NGOC THANH THANH TOAN HD-2507-083", "output": {"tenant_name": "VU NGOC THANH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2507-083"}}
+{"input": "DO MINH ANH TIEN TRO PHONG 303 T4 2026", "output": {"tenant_name": "DO MINH ANH", "room_code": "303", "month": 4, "year": 2026, "invoice_code": null}}
+{"input": "PHAM MINH QUANG CK TIEN PHONG 402 T9/2026", "output": {"tenant_name": "PHAM MINH QUANG", "room_code": "402", "month": 9, "year": 2026, "invoice_code": null}}
+{"input": "DANG DINH DUC CHUYEN KHOAN", "output": {"tenant_name": "DANG DINH DUC", "room_code": null, "month": null, "year": null, "invoice_code": null}}
+{"input": "LUONG HOANG THI CK TIEN PHONG 402", "output": {"tenant_name": "LUONG HOANG THI", "room_code": "402", "month": null, "year": null, "invoice_code": null}}
+{"input": "PHAM HOANG QUANG CK P102 THANG2/2025", "output": {"tenant_name": "PHAM HOANG QUANG", "room_code": "102", "month": 2, "year": 2025, "invoice_code": null}}
+{"input": "PHAM XUAN PHUONG TT HD-2511-049 P201", "output": {"tenant_name": "PHAM XUAN PHUONG", "room_code": "201", "month": null, "year": null, "invoice_code": "HD-2511-049"}}
+{"input": "VO HUU PHUONG THANH TOAN HD-2510-063", "output": {"tenant_name": "VO HUU PHUONG", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2510-063"}}
+{"input": "NGO NGOC THI MBVCB CK P303 THANG 12", "output": {"tenant_name": "NGO NGOC THI", "room_code": "303", "month": 12, "year": null, "invoice_code": null}}
+{"input": "DANG HOANG HOANG CK P305", "output": {"tenant_name": "DANG HOANG HOANG", "room_code": "305", "month": null, "year": null, "invoice_code": null}}
+{"input": "PHAM HUU DUC TIEN TRO PHONG 303 T12 2025", "output": {"tenant_name": "PHAM HUU DUC", "room_code": "303", "month": 12, "year": 2025, "invoice_code": null}}
+{"input": "LE QUOC MINH THANH TOAN HD-2601-089", "output": {"tenant_name": "LE QUOC MINH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2601-089"}}
+{"input": "LE THANH NGOC TIEN TRO PHONG 402 T11 2025", "output": {"tenant_name": "LE THANH NGOC", "room_code": "402", "month": 11, "year": 2025, "invoice_code": null}}
+{"input": "BUI HUU ANH CK P103", "output": {"tenant_name": "BUI HUU ANH", "room_code": "103", "month": null, "year": null, "invoice_code": null}}
+{"input": "DINH XUAN PHUONG CK HD-2611-066 PHONG 102", "output": {"tenant_name": "DINH XUAN PHUONG", "room_code": "102", "month": null, "year": null, "invoice_code": "HD-2611-066"}}
+{"input": "THANH TOAN HOA DON HD-2612-027 HOANG THANH ANH", "output": {"tenant_name": "HOANG THANH ANH", "room_code": null, "month": null, "year": null, "invoice_code": "HD-2612-027"}}
+{"input": "DANG NGOC HOANG TT PHONG 203 KY 11/2025", "output": {"tenant_name": "DANG NGOC HOANG", "room_code": "203", "month": 11, "year": 2025, "invoice_code": null}}
+{"input": "VU QUOC NGOC CHUYEN KHOAN TIEN PHONG 401 THANG 5/2026", "output": {"tenant_name": "VU QUOC NGOC", "room_code": "401", "month": 5, "year": 2026, "invoice_code": null}}
+{"input": "TRAN DINH DUC TT HD-2506-056 P402", "output": {"tenant_name": "TRAN DINH DUC", "room_code": "402", "month": null, "year": null, "invoice_code": "HD-2506-056"}}
